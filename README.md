@@ -43,7 +43,7 @@ The aim of this project is to develop a tool describing interaction of different
 **immune cell passport**
 ![immune cell passport](images/cell passport.png)
 
-**cytokines sources profile.png**
+**cytokines sources profile**
 ![cytokines sources profile](images/cytokine profile.png)
 
 ## Content of database
@@ -73,17 +73,16 @@ IRT navigator is a tool to access IRT database. IRT navigator provides the intui
 ![IRT navigator prototype](images/2016-07-05.png)
 
 # Team
-Oleg Demin Jr.: idea, modeling, coordination
-![Oleg](images/oleg.png)
+**Oleg Demin Jr.: idea, modeling, coordination**
+<img src="images/oleg.png" style="width:200px;"/>
 
-
+**Antonina Nikitich: analytics, modeling, literature search**
 <img src="images/sansa.png" style="width:200px;"/>
-Antonina Nikitich: analytics, modeling, literature search
 
+**Evgeny @metelkin: database schema, scripting, "design"**
 <img src="images/evgeny.png" style="width:200px;"/>
-Evgeny @metelkin: database schema, scripting, "design"
 
-Other ISBM folks: Oleg Demin, Alexander Stepanov
+Other ISBM folks: **Oleg Demin, Alexander Stepanov**
 PR, schemes, testing
 ---
 by Institute for Systems Biology Moscow
