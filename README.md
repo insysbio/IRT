@@ -84,5 +84,7 @@ IRT navigator is a tool to access IRT database. IRT navigator provides the intui
 
 Other ISBM folks: **Oleg Demin, Alexander Stepanov**
 PR, schemes, testing
+
 ---
+
 by Institute for Systems Biology Moscow
