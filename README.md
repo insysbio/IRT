@@ -74,13 +74,13 @@ IRT navigator is a tool to access IRT database. IRT navigator provides the intui
 
 # Team
 **Oleg Demin Jr.: idea, modeling, coordination**
-<img src="images/oleg.png" style="width:200px;"/>
+<br/><img src="images/oleg.png" style="width:200px;"/>
 
 **Antonina Nikitich: analytics, modeling, literature search**
-<img src="images/sansa.png" style="width:200px;"/>
+<br/><img src="images/sansa.png" style="width:200px;"/>
 
 **Evgeny @metelkin: database schema, scripting, "design"**
-<img src="images/evgeny.png" style="width:200px;"/>
+<br/><img src="images/evgeny.png" style="width:200px;"/>
 
 Other ISBM folks: **Oleg Demin, Alexander Stepanov**
 PR, schemes, testing
