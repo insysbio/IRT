@@ -1,4 +1,6 @@
-_social networks_
+_social networks and subscription_
+
+**If you are interested in obtaining demo or commercial version of IRT package please make a request by email.**
 
 # Immune Response Template
 
@@ -21,12 +23,28 @@ Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
 
 Download: [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
+# News
+
+2016-10-26 Oleg Demin Jr. presented his report "Immune Response Template for Quantitative Systems Pharmacology Modeling of Immunotherapy in Oncology" on ACoP 2016, Bellevue, Washington. Download poster
+
+2016-09-01 12:00 Today is the offical release of IRT 1.0! The demo package has been sended to all subscribers of the project. The full functionality version will be available based on commercial license. Contact IRT team.
+
+2016-07-01 17:51 This site is available on http://irt.insysbio.ru.
+
+2016-06-29 12:30 The release date of IRT was postponed until 2016-09-01 12:00.
+
 # IRT database
 
 ## Motivation
 Immunotherapy is a new class of cancer treatment that works by activation of immune response of patient to fight with tumor cells. The immunotherapy is able to demonstrate very high efficacy in cancer treatment (for, example, PD-1 and PD-L1 inhibitors) the strong stimulation of immune systems could lead to the side effect related to the autoimmunity. That is why optimization of different types of immunotherapies and their combinations is very important to stimulate immune system strong enough to kill tumor cells, but not so strong to cause autoimmunity. The main challenge in optimization of immunotherapies is the complexity of immune system, interactions between different types of immune cells, cancer cells, cytokines, chemokines and other participant of immune response.
 
 The aim of this project is to develop a tool describing interaction of different types of immune cells, cytokines, chemokines and other participants of immune response.
+
+**immune cell passport**
+![immune cell passport](images/cell passport.png)
+
+**cytokines sources profile.png**
+![cytokines sources profile](images/cytokine profile.png)
 
 ## Content of database
 
@@ -51,12 +69,21 @@ IRT navigator is a tool to access IRT database. IRT navigator provides the intui
 - automatic generation of model template based on the user selection which can be downloaded as SBML file;
 - automatic summary report generation based on the user selection.
 
+**IRT navigator prototype.png**
+![IRT navigator prototype](images/2016-07-05.png)
+
 # Team
 Oleg Demin Jr.: idea, modeling, coordination
 ![Oleg](images/oleg.png)
 
-Antonina Nikitich: analytics, modeling, literature search
-![Sansa](images/sansa.png)
 
+<img src="images/sansa.png" style="width:200px;"/>
+Antonina Nikitich: analytics, modeling, literature search
+
+<img src="images/evgeny.png" style="width:200px;"/>
 Evgeny @metelkin: database schema, scripting, "design"
-<img src="images/evgeny.png" style="width:50px;"/>
+
+Other ISBM folks: Oleg Demin, Alexander Stepanov
+PR, schemes, testing
+---
+by Institute for Systems Biology Moscow
