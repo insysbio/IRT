@@ -1,3 +1,5 @@
+_social networks_
+
 # Immune Response Template
 
 IRT is a initiative project for a full cycle infrastructure for population, validation and visualization of the available data on immune cells and cytokine interactions in humans. The unique feature of the project is its focus on tools and support for QSP modeling by providing:
@@ -9,11 +11,15 @@ IRT is a initiative project for a full cycle infrastructure for population, vali
 * extended annotation of rate equations and parameters;
 * automatic generation of model templates.
 
+IRT team makes an effort in two direction: the development of database on human immune cells interaction (IRT database) and the development of tools for navigation and model creation (IRT navigator).
+
+Try: [IRT demo](online)
+
+## Read more
+
 Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
 
 Download: [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
-
-IRT team makes an effort in two direction: the development of database on human immune cells interaction (IRT database) and the development of tools for navigation and model creation (IRT navigator).
 
 # IRT database
 
@@ -24,7 +30,7 @@ The aim of this project is to develop a tool describing interaction of different
 
 ## Content of database
 
-For each type of immune cells we have developed *"cells passport"* which is the scheme visualizing literature available experimental facts on
+For each type of immune cells we have developed **"cells passport"** which is the scheme visualizing literature available experimental facts on
 
 - activation/differentiation and proliferation of the cell;
 - cytokines which is synthesized by this type of cell upon activation;
@@ -68,10 +74,6 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/insysbio/irt_navigator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
