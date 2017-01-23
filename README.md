@@ -59,4 +59,4 @@ Antonina Nikitich: analytics, modeling, literature search
 ![Sansa](images/sansa.png)
 
 Evgeny @metelkin: database schema, scripting, "design"
-![Evgeny](images/evgeny.png)
+<img src="images/evgeny.png" style="width:50px;"/>
