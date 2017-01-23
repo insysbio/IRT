@@ -51,30 +51,12 @@ IRT navigator is a tool to access IRT database. IRT navigator provides the intui
 - automatic generation of model template based on the user selection which can be downloaded as SBML file;
 - automatic summary report generation based on the user selection.
 
-### Markdown
+# Team
+Oleg Demin Jr.: idea, modeling, coordination
+![Oleg](images/oleg.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Antonina Nikitich: analytics, modeling, literature search
+![Sansa](images/sansa.png)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Evgeny @metelkin: database schema, scripting, "design"
+![Evgeny](images/evgeny.png)
