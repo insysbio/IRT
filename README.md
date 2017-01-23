@@ -1,8 +1,20 @@
-## Welcome to GitHub Pages
+# Immune Response Template
 
-You can use the [editor on GitHub](https://github.com/insysbio/irt_navigator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+IRT is a initiative project for a full cycle infrastructure for population, validation and visualization of the available data on immune cells and cytokine interactions in humans. The unique feature of the project is its focus on tools and support for QSP modeling by providing:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* interactive schemes (passports of immune cells);
+* annotation of each process, cell and cytokine with cross references and links to the external databases;
+* rate equations of key processes involved in immune response derived on the basis of existing knowledge;
+* values of parameters of the rate equations identified via fitting of the specific sub-models to human in vitro and in vivo data;
+* extended annotation of rate equations and parameters;
+* automatic generation of model templates.
+
+Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
+Download: [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
+
+IRT team makes an effort in two direction: the development of database on human immune cells interaction (IRT database) and the development of tools for navigation and model creation (IRT navigator).
+
+
 
 ### Markdown
 
