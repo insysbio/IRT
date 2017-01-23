@@ -10,11 +10,40 @@ IRT is a initiative project for a full cycle infrastructure for population, vali
 * automatic generation of model templates.
 
 Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
+
 Download: [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
 IRT team makes an effort in two direction: the development of database on human immune cells interaction (IRT database) and the development of tools for navigation and model creation (IRT navigator).
 
+# IRT database
 
+## Motivation
+Immunotherapy is a new class of cancer treatment that works by activation of immune response of patient to fight with tumor cells. The immunotherapy is able to demonstrate very high efficacy in cancer treatment (for, example, PD-1 and PD-L1 inhibitors) the strong stimulation of immune systems could lead to the side effect related to the autoimmunity. That is why optimization of different types of immunotherapies and their combinations is very important to stimulate immune system strong enough to kill tumor cells, but not so strong to cause autoimmunity. The main challenge in optimization of immunotherapies is the complexity of immune system, interactions between different types of immune cells, cancer cells, cytokines, chemokines and other participant of immune response.
+
+The aim of this project is to develop a tool describing interaction of different types of immune cells, cytokines, chemokines and other participants of immune response.
+
+## Content of database
+
+For each type of immune cells we have developed *"cells passport"* which is the scheme visualizing literature available experimental facts on
+
+- activation/differentiation and proliferation of the cell;
+- cytokines which is synthesized by this type of cell upon activation;
+- cytokines/cells that affect this type of cell.
+
+For each cytokine we have developed a scheme (*cytokines sources profile*) visualizing literature available experimental facts on
+
+- production of the cytokine by different immune cells located in blood, lymph node and tissue;
+- regulation of production of the cytokine by other cytokines.
+
+# IRT navigator
+
+## Purpose
+IRT navigator is a tool to access IRT database. IRT navigator provides the intuitive interface for searching the information and model template creation. IRT navigator allows:
+
+- visualization of cell dynamics of immune cells;
+- navigation across multiple interactions of immune cells;
+- automatic generation of model template based on the user selection which can be downloaded as SBML file;
+- automatic summary report generation based on the user selection.
 
 ### Markdown
 
