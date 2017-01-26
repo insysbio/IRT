@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+gems:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-redirect-from
+  
