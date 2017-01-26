@@ -1,5 +1,3 @@
-_try demo_
-
 _social networks_
 
 _email subscription_
