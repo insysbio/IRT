@@ -58,8 +58,8 @@ The database is distributed under two revisions: (1) demo version is available [
 * generation of summary with ODE system for chosen elements;
 * running of IRT in one click in different OS (Windows, Mac OS, Linux).
 
-**IRT navigator prototype.png**
-![IRT navigator prototype](images/2016-07-05.png)
+**IRT navigator**
+![IRT navigator](images/general_view.png)
 
 ## Read more
 
