@@ -1,8 +1,8 @@
+_try demo_
+
 _social networks_
 
 _email subscription_
-
-_try demo_
 
 _look at video_
 
@@ -24,7 +24,7 @@ IRT database includes:
 * values of parameters of the rate equations identified via fitting of the specific "in vitro" models against _in vitro_ data or calculated using _in vivo_ data measured for **healthy human**;
 * extended annotation of rate equations and parameters.
 
-The database is distributed under two revisions: (1) demo version is available [online](online) for free under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/legalcode)lisence. (2) the full version is can be obtained under commercial license after request to **irt@insysbio.ru**
+The database is distributed under two revisions: (1) demo version is available [online](online) for free under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/legalcode) lisence. (2) the full version is can be obtained under commercial license after request to **irt@insysbio.ru**
 
 **immune cell passport**
 ![immune cell passport](images/cell passport.png)

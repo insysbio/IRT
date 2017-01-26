@@ -3,4 +3,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-redirect-from
-  
+title: "Immune Response Template"
+description: "annotation and numerical description of immune response in humans"
+show_downloads: true
+google_analytics: 1
