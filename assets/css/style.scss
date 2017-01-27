@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-
+/*
 #online_banner {
   display: block;
   position: absolute;
@@ -10,7 +10,7 @@
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: #fff;
+  color: #099999;
   background: url('../images/logo_irt_30x30.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
@@ -19,7 +19,7 @@
 }
 
 #header_wrap{
-  /*background: #0f0 url("../images/template209.jpg");*/
+  background: #0f0 url("../images/template209.jpg");
 }
 
 ul.share-buttons{
@@ -45,3 +45,4 @@ ul.share-buttons .sr-only {
 ul.share-buttons img{
   width: 32px;
 }
+*/
