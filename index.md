@@ -47,6 +47,10 @@ The database is distributed under two revisions: (1) demo version is available [
 **IRT navigator**
 ![IRT navigator](images/general view.png)
 
+## 
+
+Let people know about us
+
 ## Read more
 
 Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
@@ -54,14 +58,11 @@ Download: [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
 Download: [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
 ## Team
-**Oleg Demin Jr.: idea, modeling, coordination**
-<br/><img src="images/oleg.png" style="width:200px;"/>
 
-**Antonina Nikitich: analytics, modeling, literature search**
-<br/><img src="images/sansa.png" style="width:200px;"/>
+* **Oleg Demin Jr.:** idea, modeling, coordination
 
-**Evgeny @metelkin: database schema, scripting, "design"**
-<br/><img src="images/evgeny.png" style="width:200px;"/>
+* **Antonina Nikitich:** analytics, modeling, literature search
 
-Other ISBM folks: **Oleg Demin, Alexander Stepanov**
-PR, schemes, testing
+* @metelkin: database schema, scripting, "design"
+
+* Other [ISBM](http://insysbio.ru/en) folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
