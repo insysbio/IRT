@@ -46,9 +46,7 @@ The database is distributed under two revisions: (1) demo version is available [
 **IRT navigator**
 ![IRT navigator](images/general view.png)
 
-## Share
-
-Let people know about us
+## Let people know about us
 
 <ul class="share-buttons">
   <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Firt.insysbio.ru&t=Immune%20Response%20Template" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg"></a></li>
