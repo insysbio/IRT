@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+This file is a part of IRT navigator 1.0
+Author: Evgeny Metelkin
+
+This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
+
+License http://creativecommons.org/licenses/by-nd/4.0/
+
+© Institute for Systems Biology, Moscow, 2016-2017
+http://insysbio.ru
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Info frame</title>
+    
+    <script type="text/javascript" src="./js/irt-annotation-min.js"> </script>
+    
+    <link rel="stylesheet" href="./style/w3.css"/>
+    <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css"/>
+    
+    <script type="text/javascript" async="true" src="./MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    
+  </head>
+  <body class="w3-container" >    
+      <span id="reactionInfo" hidden="true">
+        <div id="spanReactionId" class="fa fa-lg irt-reaction irt-chosen irt-included-not w3-card-4">???</div>
+        <h1 id ="spanReactionName">???</h1>
+        <p id="spanReactionNote">"spanReactionNote"</p>
+        <table class="descriptionTab">
+          <tr><td colspan="2" style="text-align: center; border-bottom: 3px solid black;"><span class="forDropDown" onmousedown="hideSp('sp4')">BIO</span></td></tr>
+          <span id="sp4">
+          <tr><td style="text-align: right; border-right: 1px solid black;">references:</td><td><span id="spanReactionReferences"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">on schemes:</td><td><span id="spanReactionSchemes"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">process:</td><td><span id="spanReactionFormula">"spanReactionFormula"</span></td></tr>
+          </span>
+          <tr><td colspan="2" style="text-align: center; border-bottom: 3px solid black;"><span class="forDropDown" onmousedown="hideSp('sp5')">MATH</span></td></tr>
+          <span id="sp5">
+          <tr><td style="text-align: right; border-right: 1px solid black;">id:</td><td><span id="spanReactionId2"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">dependences:</td><td id="spanReactionEquations">"spanReactionEquations"</td></tr> 
+          <tr><td style="text-align: right; border-right: 1px solid black;">identifications:</td><td id="spanReactionIdentifications">"spanReactionIdentifications"</td></tr>
+          </span>
+        </table>
+      </span>
+      
+      <span id="speciesInfo" hidden="true">
+        <div id="spanSpeciesId" class="fa fa-lg irt-species irt-chosen irt-included-not w3-card-4">???</div>
+        <h1 id ="spanSpeciesName">???</h1>
+        <p id="spanSpeciesNote">"spanSpeciesNote"</p>
+        <table class="descriptionTab">
+          <tr><td colspan="2" style="text-align: center; border-bottom: 3px solid black;"><span class="forDropDown" onmousedown="hideSp('sp1')">BIO</span></td></tr>
+          <span id="sp1">
+          <tr><td style="text-align: right; border-right: 1px solid black;">speciesType:</td><td><span id="spanSpeciesTypeName"/> <i>(<span id ="spanSpeciesTypeId"/>)</i></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">speciesTypeNote:</td><td><span id="spanSpeciesTypeNote"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">references:</td><td><span id="spanSpeciesTypeReferences"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">on schemes:</td><td><span id="spanSpeciesTypeSchemes"/></td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">compartment:</td><td><span id="spanSpeciesCompartmentName"/> <i>(<span id ="spanSpeciesCompartmentId"/>)</i></td></tr>
+          </span>
+          <tr><td colspan="2" style="text-align: center; border-bottom: 3px solid black;"><span class="forDropDown" onmousedown="hideSp('sp2')">MATH</span></td></tr>
+          <span id="sp2">
+          <tr><td style="text-align: right; border-right: 1px solid black;">id:</td><td id ="spanSpeciesId2">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">mode:</td><td id ="spanSpeciesMode">fixed/explicit/dynamic</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">initialConcentration:</td><td id="spanSpeciesInitials">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">dependences:</td><td id="spanSpeciesEquations">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">identifications:</td><td id="spanSpeciesIdentifications">???</td></tr>
+          </span>
+        </table>
+      </span>
+      
+      <span id="compartmentInfo" hidden="true">
+        <div id="spanCompartmentId" class="fa fa-lg irt-compartment irt-chosen irt-included w3-card-4">idOfCompartment</div>
+        <h1 id ="spanCompartmentName">???</h1>
+        <p id="spanCompartmentNote">"spanCompartmentNote"</p>
+        <table class="descriptionTab">
+          <tr><td colspan="2" style="text-align: center; border-bottom: 3px solid black;"> </td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">references:</td><td  id="spanCompartmentReferences">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">id:</td><td id ="spanCompartmentId2">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">mode:</td><td>fixed</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">value:</td><td id="spanCompartmentValue">???</td></tr>
+          <tr><td style="text-align: right; border-right: 1px solid black;">identifications:</td><td id="spanCompartmentIdentifications">???</td></tr>
+        </table>
+      </span>
+  </body>
+</html>

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:xhtml="http://www.w3.org/1999/xhtml" level="2" version="4">
+  <model id="irt">
+    <listOfSpeciesTypes>
+      <speciesType id="Th0_abs" name="Th0 cells">
+        <notes>Naïve CD4 T cells</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="22474485"/>
+          <ref db="wikipedia" ref="T_helper_cell"/>
+          <ref db="amigo" ref="CL:0000898"/>
+        </references></annotation>
+      </speciesType><speciesType id="Th2_abs" name="Th2 cells">
+        <notes>T helper 2 cells</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="22474485"/>
+          <ref db="pubmed" ref="12946237"/>
+          <ref db="wikipedia" ref="T_helper_cell"/>
+          <ref db="amigo" ref="CL:0000546"/>
+        </references></annotation>
+      </speciesType><speciesType id="Bi_abs" name="Bi cells">
+        <notes>Intermediate state of B cells (result of antigen recognition by naïve B cells)</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="23465663"/>
+          <ref db="pubmed" ref="18725575"/>
+          <ref db="wikipedia" ref="B_cell"/>
+          <ref db="amigo" ref="CL:0000236"/>
+        </references></annotation>
+      </speciesType><speciesType id="Ba_abs" name="Ba cells">
+        <notes>“Licensed” B cells (intermediate state of B cells activated by Th1 cells via CD40L-CD40 interaction)</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="23465663"/>
+          <ref db="pubmed" ref="18725575"/>
+          <ref db="wikipedia" ref="B_cell"/>
+          <ref db="amigo" ref="CL:0000236"/>
+        </references></annotation>
+      </speciesType><speciesType id="mDC1_abs" name="mDC1 cells">
+        <notes>Mature dendritic cells type 1 (result of antigen recognition by immature dendritic cells)</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="10973276"/>
+          <ref db="pubmed" ref="10837075"/>
+          <ref db="pubmed" ref="19121337"/>
+          <ref db="wikipedia" ref="Dendritic_cell"/>
+          <ref db="amigo" ref="GO:0097029"/>
+        </references></annotation>
+      </speciesType><speciesType id="mDC1a_abs" name="mDC1a cells">
+        <notes>"Licensed" mature dendritic cells (mature dendritic cells of type 1 activated by Th1 cells via CD40L-CD40 interaction) </notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="10837075"/>
+          <ref db="pubmed" ref="19121337"/>
+          <ref db="wikipedia" ref="Dendritic_cell"/>
+          <ref db="amigo" ref="GO:0097029"/>
+        </references></annotation>
+      </speciesType><speciesType id="IL10_abs" name="IL-10">
+        <notes>Interleukin-10</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="21115385"/>
+          <ref db="pubmed" ref="9433360"/>
+          <ref db="wikipedia" ref="Interleukin_10"/>
+          <ref db="uniprot" ref="P22301"/>
+        </references></annotation>
+      </speciesType><speciesType id="TGFb_abs" name="TGFb">
+        <notes>Transforming growth factor beta</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="16551245"/>
+          <ref db="pubmed" ref="17875754"/>
+          <ref db="wikipedia" ref="Transforming_growth_factor_beta"/>
+          <ref db="uniprot" ref="P01137"/>
+        </references></annotation>
+      </speciesType><speciesType id="IL2_abs" name="IL-2">
+        <notes>Interleukin-2</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="22343569"/>
+          <ref db="pubmed" ref="23352221"/>
+          <ref db="pubmed" ref="26572555"/>
+          <ref db="pubmed" ref="18062768"/>
+          <ref db="pubmed" ref="18830208"/>
+          <ref db="wikipedia" ref="Interleukin_2"/>
+          <ref db="uniprot" ref="P60568"/>
+        </references></annotation>
+      </speciesType><speciesType id="IL4_abs" name="IL-4">
+        <notes>Interleukin-4</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="22782966"/>
+          <ref db="pubmed" ref="9914942"/>
+          <ref db="wikipedia" ref="Interleukin_4"/>
+          <ref db="uniprot" ref="P05112"/>
+        </references></annotation>
+      </speciesType><speciesType id="IL5_abs" name="IL-5">
+        <notes>Interleukin-5</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="8738511"/>
+          <ref db="pubmed" ref="19231596"/>
+          <ref db="wikipedia" ref="Interleukin_5"/>
+          <ref db="uniprot" ref="P05113"/>
+        </references></annotation>
+      </speciesType><speciesType id="IL13_abs" name="IL-13">
+        <notes>Interleukin-13</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="9512421"/>
+          <ref db="pubmed" ref="9914942"/>
+          <ref db="wikipedia" ref="Interleukin_13"/>
+          <ref db="uniprot" ref="P35225"/>
+        </references></annotation>
+      </speciesType><speciesType id="CD8086_abs" name="CD80/86">
+        <notes>CD80/86</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="12810107"/>
+          <ref db="wikipedia" ref="CD80"/>
+          <ref db="wikipedia" ref="CD86"/>
+          <ref db="uniprot" ref="P33681"/>
+          <ref db="uniprot" ref="P42081"/>
+        </references></annotation>
+      </speciesType><speciesType id="CTLA4_abs" name="CTLA-4">
+        <notes>Cytotoxic T-lymphocyte-associated protein 4</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="16903911"/>
+          <ref db="pubmed" ref="25582039"/>
+          <ref db="wikipedia" ref="CTLA-4"/>
+          <ref db="uniprot" ref="P16410"/>
+        </references></annotation>
+      </speciesType><speciesType id="MHC2_abs" name="MHC class II">
+        <notes>Major histocompatibility complex class II</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="22076556"/>
+          <ref db="wikipedia" ref="MHC_class_II"/>
+          <ref db="uniprot" ref="P01920"/>
+        </references></annotation>
+      </speciesType>
+    </listOfSpeciesTypes>
+    <listOfUnitDefinitions>
+      <unitDefinition id="pM" name="pM">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+          <unit scale="0" kind="litre" multiplier="1" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="pmole" name="pmole">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="l" name="l">
+        <listOfUnits>
+          <unit scale="0" kind="litre" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="kcell" name="Kcell">
+        <listOfUnits>
+          <unit scale="3" kind="item" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="dl" name="">
+        <listOfUnits>
+          <unit scale="0" kind="dimensionless" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="l_per_h" name="\frac{l}{h}">
+        <listOfUnits>
+          <unit scale="0" kind="litre" multiplier="1" exponent="1"/>
+          <unit scale="0" kind="second" multiplier="3600" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="pmole_per_kcell" name="\frac{pmole}{Kcell}">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+          <unit scale="3" kind="item" multiplier="1" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="per_h" name="h^{-1}">
+        <listOfUnits>
+          <unit scale="0" kind="second" multiplier="3600" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="pM_per_h" name="\frac{pM}{h}">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+          <unit scale="0" kind="litre" multiplier="1" exponent="-1"/>
+          <unit scale="0" kind="second" multiplier="3600" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="pmole_per_kcell_h" name="\frac{pmole}{Kcell \cdot h}">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+          <unit scale="3" kind="item" multiplier="1" exponent="-1"/>
+          <unit scale="0" kind="second" multiplier="3600" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="per_pM_h" name="\frac{1}{pM \cdot h}">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="-1"/>
+          <unit scale="0" kind="litre" multiplier="1" exponent="1"/>
+          <unit scale="0" kind="second" multiplier="3600" exponent="-1"/>
+        </listOfUnits>
+      </unitDefinition><unitDefinition id="pM_kcell_per_l" name="\frac{pM \cdot Kcell}{l}">
+        <listOfUnits>
+          <unit scale="-12" kind="mole" multiplier="1" exponent="1"/>
+          <unit scale="0" kind="litre" multiplier="1" exponent="-2"/>
+          <unit scale="3" kind="item" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition></listOfUnitDefinitions>
+    <listOfCompartments><compartment id="BLOOD" constant="true" size="5" name="Blood" units="l" spatialDimensions="3">
+        <notes>The fluid that circulates in the principal vascular system of human beings and other vertebrates, in humans consisting of plasma in which the red blood cells, white blood cells, and platelets are suspended.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="wikipedia" ref="Blood"/>
+          <ident refId="i:00001"/>
+        </references></annotation>
+      </compartment><compartment id="LN" constant="true" size="0.015" name="Lymph node" units="l" spatialDimensions="3">
+        <notes>Tissue-draining (sentinel) lymph node. A lymph node is an oval-shaped organ of the lymphatic system, distributed widely throughout the body including the armpit and stomach and linked by lymphatic vessels.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="wikipedia" ref="Lymph_node"/>
+          <ident refId="i:00002"/>
+        </references></annotation>
+      </compartment><compartment id="TISSUE" constant="true" size="1" name="Tissue" units="l" spatialDimensions="3">
+        <notes>Inflammed tissue in human body (for example, tumor tissue, liver, lungs, skin, kidney etc.)</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="wikipedia" ref="Tissue_(biology)"/>
+          <ident refId="o:cond"/>
+        </references></annotation>
+      </compartment><compartment id="PLASMA" constant="true" size="2.75" outside="BLOOD" name="Blood plasma" units="l" spatialDimensions="3">
+        <notes>The pale yellow fluid portion of whole blood that consists of water and its dissolved constituents including proteins (as albumin, fibrinogen, and globulins), electrolytes, sugars, etc.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="wikipedia" ref="Blood_plasma"/>
+          <ident refId="i:00003"/>
+        </references></annotation>
+      </compartment></listOfCompartments>
+    <listOfSpecies><species id="Th0_ln" name="Th0 in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="Th0_abs">
+        <notes>Concentration of Th0 cells in lymph node.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="Th2_ln" name="Th2 in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="Th2_abs">
+        <notes>Concentration of Th2 cells in lymph node.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="Th2_bld" name="Th2 in blood" substanceUnits="kcell" initialConcentration="15000" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="BLOOD" speciesType="Th2_abs">
+        <notes>Concentration of Th2 cells in blood. </notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00018"/>
+        </references></annotation>
+      </species><species id="Th2_ts" name="Th2 in tissue" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="TISSUE" speciesType="Th2_abs">
+        <notes>Concentration of Th2 cells in tissue.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="Bi_ln" name="Bi in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="Bi_abs">
+        <notes>Concentration of intermediate activated B cells (after antigen recognition) in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="Ba_ln" name="Ba in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="Ba_abs">
+        <notes>Concentration of  “licensed” B cells (Bi activated by Th1 via CD40L-CD40 interaction) in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="mDC1_ln" name="mDC1 in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="mDC1_abs">
+        <notes>Concentration of mature DC1 (after antigen recognition) in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="mDC1a_ln" name="mDC1a in lymph node" substanceUnits="kcell" initialConcentration="0" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="mDC1a_abs">
+        <notes>Concentration of "licensed" (activated by Th1 via CD40L-CD40 interaction) mature DC activated in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </species><species id="IL10" name="IL-10 in plasma" substanceUnits="pmole" initialConcentration="0.7" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="IL10_abs">
+        <notes>Concentration of IL-10 in plasma.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00023"/>
+        </references></annotation>
+      </species><species id="TGFb" name="TGFb in plasma" substanceUnits="pmole" initialConcentration="728" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="TGFb_abs">
+        <notes>Concentration of TGFb in plasma. </notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00024"/>
+        </references></annotation>
+      </species><species id="IL2" name="IL-2 in plasma" substanceUnits="pmole" initialConcentration="0.9" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="IL2_abs">
+        <notes>Concentration of IL-2 in plasma.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00023"/>
+        </references></annotation>
+      </species><species id="IL4" name="IL-4 in plasma" substanceUnits="pmole" initialConcentration="0.4" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="IL4_abs">
+        <notes>Concentration of IL-4 in plasma. </notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00023"/>
+        </references></annotation>
+      </species><species id="IL5" name="IL-5 in plasma" substanceUnits="pmole" initialConcentration="0.4" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="IL5_abs">
+        <notes>Concentration of IL-5 in plasma. </notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00025"/>
+        </references></annotation>
+      </species><species id="IL13" name="IL-13 in plasma" substanceUnits="pmole" initialConcentration="1.2" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" compartment="PLASMA" speciesType="IL13_abs">
+        <notes>Concentration of IL-13 in plasma.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00023"/>
+        </references></annotation>
+      </species><species id="MHC2" name="MHC class II in lymph node" substanceUnits="pmole" initialConcentration="0" boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="MHC2_abs">
+        <notes>Concentration of MHC class II on mDC1, mDC1a, Bi and Ba cells surface in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00003"/>
+        </references></annotation>
+      </species><species id="CD8086_cd4" name="CD80/86 (on mDC1, mDC1a, Bi and Ba) in lymph node" substanceUnits="pmole" initialConcentration="0" boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="CD8086_abs">
+        <notes>Concentration of CD80/86 on mDC1, mDC1a, Bi and Ba cells surface in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00003"/>
+        </references></annotation>
+      </species><species id="CTLA4_th0_total" name="CTLA-4 (on Th0 cells) in lymph node" substanceUnits="pmole" initialConcentration="0" boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="LN" speciesType="CTLA4_abs">
+        <notes>Total concentration of CTLA4 on Th0 cells surface in lymph node</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00003"/>
+        </references></annotation>
+      </species></listOfSpecies>
+    <listOfParameters><parameter id="Q_lf" constant="true" value="0.06" units="l_per_h">
+        <notes>Lymph flow rate.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00004"/>
+        </references></annotation>
+      </parameter><parameter id="Emax_ctla4_cd4" constant="true" value="1" units="dl">
+        <notes>Emax of CTLA4 effect on Th0 cells differentiation into Th1 or Th2 or Th17 or Treg.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="EC50_ctla4_cd4" constant="true" value="1" units="pM">
+        <notes>EC50 of CTLA4 effect on Th0 cells differentiation into Th1 or Th2 or Th17 or Treg.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_th0_ctla4" constant="true" value="2.5e-07" units="pmole_per_kcell">
+        <notes>Constant describing CTLA4 level on surface of 10^3 Th0 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00030"/>
+        </references></annotation>
+      </parameter><parameter id="Keff_th0_to_th2_cd28" constant="true" value="4.401e+09" units="pM_kcell_per_l">
+        <notes>Constant describing the effect of CD28 ligands on Th0 cells differentiation into Th2 cells (merged with parameter describing expression of CD28 per cell). The value is assumed to be the same as for Th1 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="k_th0_to_th2" constant="true" value="1.85e-07" units="per_pM_h">
+        <notes>Rate constant of  Th0 cells differentiation into Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="Keff_th0_to_th2_il4" constant="true" value="213.7" units="pM">
+        <notes>Constant describing the effect of IL-4 on Th0 cells differentiation into Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="k_apo_th2_ln" constant="true" value="1" units="per_h">
+        <notes>Rate constant of Th2 cells apoptosis in LN.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="k_pro_th2" constant="true" value="0.143" units="per_h">
+        <notes>Rate constant of  Th2 cells proliferation. The value is assumed to be the same as for Th1 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="Emax_pro_th2_tgfb" constant="true" value="1" units="dl">
+        <notes>Emax of TGFb effect on Th2 cells proliferation.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="EC50_pro_th2_tgfb" constant="true" value="1" units="pM">
+        <notes>EC50 of TGFb effect on Th2 cells proliferation.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="Keff_pro_th2_il2" constant="true" value="1315" units="pM">
+        <notes>Constant describing the effect of IL-2 on Th2 cells proliferation. The value is assumed to be the same as for Th1 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="k_apo_th2_bld" constant="true" value="1" units="per_h">
+        <notes>Rate constant of Th2 cells apoptosis in blood.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="Q_bld_to_ts_th2" constant="true" value="1" units="l_per_h">
+        <notes>Rate constant of Th2 cells migration from blood to tissue.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="k_apo_th2_ts" constant="true" value="1" units="per_h">
+        <notes>Rate constant of  Th2 cells apoptosis in tissue.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_bi_mhc2" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing MHC class II level on surface of 10^3 Bi cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_ba_mhc2" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing MHC class II level on surface of 10^3 Ba cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_bi_cd8086" constant="true" value="1.17e-06" units="pmole_per_kcell">
+        <notes>Constant describing CD80/86 level on surface of 10^3 Bi cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00032"/>
+        </references></annotation>
+      </parameter><parameter id="c_ba_cd8086" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing CD80/86 level on surface of 10^3 Ba cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_mdc1_mhc2" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing MHC class II level on surface of 10^3 mDC1.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_mdc1a_mhc2" constant="true" value="0.000223" units="pmole_per_kcell">
+        <notes>Constant describing MHC class II level on surface of 10^3 mDC1a.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00033"/>
+        </references></annotation>
+      </parameter><parameter id="c_mdc1_cd8086" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing CD80/86 level on surface of 10^3 mDC1.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="c_mdc1a_cd8086" constant="true" value="1" units="pmole_per_kcell">
+        <notes>Constant describing CD80/86 level on surface of 10^3 mDC1a.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="k_syn_il10_th2" constant="true" value="0.0001294" units="pmole_per_kcell_h">
+        <notes>Rate constant of  IL-10 synthesis by Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="k_syn_il4_th2" constant="true" value="1" units="pmole_per_kcell_h">
+        <notes>Rate constant of  IL-4 synthesis by Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:absent"/>
+        </references></annotation>
+      </parameter><parameter id="V_syn_il4_other" constant="true" value="1" units="pM_per_h">
+        <notes>Rate constant of IL-4 synthesis by other cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="k_deg_il4" constant="true" value="2.17" units="per_h">
+        <notes>Rate constant of IL-4 degradation.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="i:00012"/>
+        </references></annotation>
+      </parameter><parameter id="k_syn_il5_th2" constant="true" value="6.11e-05" units="pmole_per_kcell_h">
+        <notes>Rate constant of  IL-5 synthesis by Th2 cells .</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="V_syn_il5_other" constant="true" value="1" units="pM_per_h">
+        <notes>Rate constant of IL-5 synthesis by other cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="k_deg_il5" constant="true" value="1" units="per_h">
+        <notes>Rate constant of IL-5 degradation.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="o:unknown"/>
+        </references></annotation>
+      </parameter><parameter id="k_syn_il13_th2" constant="true" value="0.002193" units="pmole_per_kcell_h">
+        <notes>Rate constant of  IL-13 synthesis by Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="CTLA4_inf_th0" constant="false" value="0" units="dl">
+        <notes>Inhibitory effect of CTLA4 on Th0 cells differentiation into Th1/Th2/Th17/Treg cells</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00004"/>
+        </references></annotation>
+      </parameter><parameter id="IL4_inf_th2" constant="false" value="0" units="dl">
+        <notes>Stimulatory effect of IL-4 on Th0 cells differentiation into Th2 cells</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="CD28_inf_th2" constant="false" value="0" units="dl">
+        <notes>Stimulatory effect of CD28 ligands on Th0 cells differentiation into Th2 cells</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="m:th2"/>
+        </references></annotation>
+      </parameter><parameter id="TGFb_inf_th2" constant="false" value="0" units="dl">
+        <notes>Inhibitory effect of TGFb on Th2 cells proliferation</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00004"/>
+        </references></annotation>
+      </parameter></listOfParameters>
+    <listOfRules><assignmentRule variable="MHC2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> c_mdc1_mhc2 </ci>
+              <ci> mDC1_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_mdc1a_mhc2 </ci>
+              <ci> mDC1a_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_bi_mhc2 </ci>
+              <ci> Bi_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_ba_mhc2 </ci>
+              <ci> Ba_ln </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="CD8086_cd4">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> c_mdc1_cd8086 </ci>
+              <ci> mDC1_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_mdc1a_cd8086 </ci>
+              <ci> mDC1a_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_bi_cd8086 </ci>
+              <ci> Bi_ln </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> c_ba_cd8086 </ci>
+              <ci> Ba_ln </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="CTLA4_th0_total">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> c_th0_ctla4 </ci>
+            <ci> Th0_ln </ci>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="CTLA4_inf_th0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <cn> 1 </cn>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Emax_ctla4_cd4 </ci>
+                <ci> CTLA4_th0_total </ci>
+                <ci> CD8086_cd4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> CTLA4_th0_total </ci>
+                  <ci> CD8086_cd4 </ci>
+                </apply>
+                <ci> EC50_ctla4_cd4 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="CD28_inf_th2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <cn> 1 </cn>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> CD8086_cd4 </ci>
+                <ci> Th0_ln </ci>
+              </apply>
+              <ci> Keff_th0_to_th2_cd28 </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="IL4_inf_th2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <cn>1</cn>
+            <apply>
+              <divide/>
+              <ci> IL4 </ci>
+              <ci> Keff_th0_to_th2_il4 </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule><assignmentRule variable="TGFb_inf_th2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <cn>1</cn>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Emax_pro_th2_tgfb </ci>
+                <ci> TGFb </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> EC50_pro_th2_tgfb </ci>
+                <ci> TGFb </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule></listOfRules>
+    <listOfReactions><reaction name="Differentiation of Th0 cells into Th2 cells in lymph node" fast="false" id="V54_th0_to_th2_ln" reversible="false">
+        <notes>APC induces differentiation of Th0 into Th2 by stimulation of CD3 (TCR) and CD28 (co-stimulatory molecule). IL-4 stimulates this process.  Co-inhibitory molecules such as CTLA-4 (presented on surface of CD8 T cells and competing with CD28 for CD80/86), PD-1 (presented on surface of CD8 T cells and interacting with PD-L1) and PD-L1 (presented on surface of antigen presenting cells and interacting with PD-1) inhibit Th0 cells differentiation into Th2 cells.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="11905831"/>
+          <ref db="pubmed" ref="23994109"/>
+          <ref db="pubmed" ref="26558876"/>
+          <ref db="pubmed" ref="25440090"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MHC2"/>
+          <modifierSpeciesReference species="CD8086_cd4"/>
+          <modifierSpeciesReference species="CTLA4_th0_total"/>
+          <modifierSpeciesReference species="IL4"/>
+        </listOfModifiers>
+        <listOfReactants>
+          <speciesReference species="Th0_ln" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Th2_ln" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> LN </ci>
+              <ci> k_th0_to_th2 </ci>
+              <ci> Th0_ln </ci>
+              <ci> MHC2 </ci>
+              <ci> IL4_inf_th2 </ci>
+              <ci> CD28_inf_th2 </ci>
+              <ci> CTLA4_inf_th0 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Apoptosis of Th2 cells in lymph node" fast="false" id="V55_apo_th2_ln" reversible="false">
+        <notes/>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_ln" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> LN </ci>
+              <ci> k_apo_th2_ln </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Proliferation of Th2 cells in lymph node" fast="false" id="V56_pro_th2_ln" reversible="false">
+        <notes>Th2 cells are able to proliferate. IL-2 stimulates and TGFb inhibits Th2 cells proliferation.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="8393732"/>
+          <ref db="pubmed" ref="19130583"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="IL2"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="Th2_ln" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> LN </ci>
+              <ci> k_pro_th2 </ci>
+              <ci> Th2_ln </ci>
+              <apply>
+                <plus/>
+                <cn>1</cn>
+                <apply>
+                  <divide/>
+                  <ci> IL2 </ci>
+                  <ci> Keff_pro_th2_il2 </ci>
+                </apply>
+              </apply>
+              <ci> TGFb_inf_th2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Migration of Th2 cells from lymph node to blood" fast="false" id="V57_ln_to_bld_th2" reversible="false">
+        <notes>Cells leave lymph node via the efferent lymphatics.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="21739671"/>
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_ln" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Th2_bld" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Q_lf </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Apoptosis of Th2 cells in blood" fast="false" id="V58_apo_th2_bld" reversible="false">
+        <notes/>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_bld" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> BLOOD </ci>
+              <ci> k_apo_th2_bld </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Migration of Th2 cells from blood to tissue" fast="false" id="V59_bld_to_ts_th2" reversible="false">
+        <notes>Th2 are able to migrate to inflamed tissue due to the presence of specific molecules on activated T cells surface.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="21739671"/>
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_bld" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Th2_ts" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Q_bld_to_ts_th2 </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Apoptosis of Th2 cells in tissue" fast="false" id="V60_apo_th2_ts" reversible="false">
+        <notes/>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_ts" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> TISSUE </ci>
+              <ci> k_apo_th2_ts </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Migration of Th2 cells from tissue to lymph node" fast="false" id="V61_ts_to_ln_th2" reversible="false">
+        <notes>Cells migrate from inflammed tissue to lymph node via the afferent lymphatics.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="23018291"/>
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="Th2_ts" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Th2_ln" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Q_lf </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-10 by Th2 cells in blood" fast="false" id="V204_syn_il10_th2_bld" reversible="false">
+        <notes>Th2 cells are able to produce IL-10.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="20498357"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_bld"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL10" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il10_th2 </ci>
+              <ci> BLOOD </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-10 by Th2 cells in lymph node" fast="false" id="V208_syn_il10_th2_ln" reversible="false">
+        <notes>Th2 cells are able to produce IL-10.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="20498357"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ln"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL10" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il10_th2 </ci>
+              <ci> LN </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-10 by Th2 cells in tissue" fast="false" id="V213_syn_il10_th2_ts" reversible="false">
+        <notes>Th2 cells are able to produce IL-10.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="20498357"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ts"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL10" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il10_th2 </ci>
+              <ci> TISSUE </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-4 by Th2 cells in blood" fast="false" id="V235_syn_il4_th2_bld" reversible="false">
+        <notes>Th2 cells are able to produce IL-4.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="17344465"/>
+          <ident refId="r:00001"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_bld"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il4_th2 </ci>
+              <ci> BLOOD </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-4 by Th2 cells in lymph node" fast="false" id="V236_syn_il4_th2_ln" reversible="false">
+        <notes>Th2 cells are able to produce IL-4.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="17344465"/>
+          <ident refId="r:00001"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ln"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il4_th2 </ci>
+              <ci> LN </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-4 by Th2 cells in tissue" fast="false" id="V237_syn_il4_th2_ts" reversible="false">
+        <notes>Th2 cells are able to produce IL-4.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="17344465"/>
+          <ident refId="r:00001"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ts"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il4_th2 </ci>
+              <ci> TISSUE </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-4 by other cells" fast="false" id="V238_syn_il4_other" reversible="false">
+        <notes>Production of IL-4 by cells that are not included in IRT.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00001"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfProducts>
+          <speciesReference species="IL4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> PLASMA </ci>
+              <ci> V_syn_il4_other </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Degradation of IL-4" fast="false" id="V239_deg_il4" reversible="false">
+        <notes/>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="IL4" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> PLASMA </ci>
+              <ci> k_deg_il4 </ci>
+              <ci> IL4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-5 by Th2 cells in blood" fast="false" id="V240_syn_il5_th2_bld" reversible="false">
+        <notes>Th2 cells are able to produce IL-5.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_bld"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL5" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il5_th2 </ci>
+              <ci> BLOOD </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-5 by Th2 cells in lymph node" fast="false" id="V241_syn_il5_th2_ln" reversible="false">
+        <notes>Th2 cells are able to produce IL-5.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ln"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL5" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il5_th2 </ci>
+              <ci> LN </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-5 by Th2 cells in tissue" fast="false" id="V242_syn_il5_th2_ts" reversible="false">
+        <notes>Th2 cells are able to produce IL-5.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ts"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL5" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il5_th2 </ci>
+              <ci> TISSUE </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-5 by other cells" fast="false" id="V243_syn_il5_other" reversible="false">
+        <notes>Production of IL-5 by cells that are not included in IRT.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00001"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfProducts>
+          <speciesReference species="IL5" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> PLASMA </ci>
+              <ci> V_syn_il5_other </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Degradation of IL-5" fast="false" id="V244_deg_il5" reversible="false">
+        <notes/>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ident refId="r:00002"/>
+        </references></annotation>
+        <listOfModifiers/>
+        <listOfReactants>
+          <speciesReference species="IL5" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> PLASMA </ci>
+              <ci> k_deg_il5 </ci>
+              <ci> IL5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-13 by Th2 cells in blood" fast="false" id="V245_syn_il13_th2_bld" reversible="false">
+        <notes>Th2 cells are able to produce IL-13.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="8605923"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_bld"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL13" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il13_th2 </ci>
+              <ci> BLOOD </ci>
+              <ci> Th2_bld </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-13 by Th2 cells in lymph node" fast="false" id="V246_syn_il13_th2_ln" reversible="false">
+        <notes>Th2 cells are able to produce IL-13.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="8605923"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ln"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL13" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il13_th2 </ci>
+              <ci> LN </ci>
+              <ci> Th2_ln </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction><reaction name="Synthesis of IL-13 by Th2 cells in tissue" fast="false" id="V247_syn_il13_th2_ts" reversible="false">
+        <notes>Th2 cells are able to produce IL-13.</notes>
+        <annotation><references xmlns="http://irt.insilicobio.ru/ns">
+          <ref db="pubmed" ref="15990796"/>
+          <ref db="pubmed" ref="20421880"/>
+          <ref db="pubmed" ref="8605923"/>
+          <ident refId="m:th2"/>
+        </references></annotation>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Th2_ts"/>
+        </listOfModifiers>
+        <listOfProducts>
+          <speciesReference species="IL13" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_syn_il13_th2 </ci>
+              <ci> TISSUE </ci>
+              <ci> Th2_ts </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

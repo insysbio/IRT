@@ -1,0 +1,22 @@
+/*
+This file is a part of IRT navigator 1.0
+Author: Evgeny Metelkin
+
+This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
+
+License http://creativecommons.org/licenses/by-nd/4.0/
+
+© Institute for Systems Biology, Moscow, 2016-2017
+http://insysbio.ru
+*/
+<!--
+This file is a part of IRT navigator 1.0
+Author: Evgeny Metelkin
+
+This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
+
+License http://creativecommons.org/licenses/by-nd/4.0/
+
+© Institute for Systems Biology, Moscow, 2016-2017
+http://insysbio.ru
+-->

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:irt="http://irt.insilicobio.ru/ns" irt:passport="IL5" width="100%" height="100%" viewBox="0 0 1210 740"><g>
+    
+    
+    <g class="" irt:ref="BLOOD" id="y.node.0"><rect x="0" y="500" width="1180" rx="4" ry="4" height="210"/><text font-size="15px" x="1139.6357" y="517.0806">Blood</text></g>
+    <g class="" irt:ref="PLASMA" id="plasma.node"><text font-size="15px" x="560" y="170">Plasma</text></g>
+    <g class="irt-cells " irt:ref="Th2_bld" id="y.node.1"><rect x="540" y="575.1174" width="100" rx="4" ry="4" height="60"/><rect x="540" y="575.1174" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="567.5991" y="615.3308">Th2</text></g>
+    <g class="" irt:ref="V240_syn_il5_th2_bld" id="y.node.2"><circle r="7.5" cx="590" cy="582.6174"/><circle r="7.5" cx="590" cy="582.6174"/></g>
+    <g class="" irt:ref="LN" id="y.node.3"><rect x="0" y="0" width="500" rx="4" ry="4" height="330"/><text font-size="15px" x="415.4414" y="17.0806">Lymph node</text></g>
+    <g class="irt-cells " irt:ref="Th2_ln" id="y.node.4"><rect x="290" y="195.1202" width="100" rx="4" ry="4" height="60"/><rect x="290" y="195.1202" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="317.5991" y="235.3336">Th2</text></g>
+    <g class="" irt:ref="V241_syn_il5_th2_ln" id="y.node.5"><circle r="7.5" cx="382.5" cy="247.6202"/><circle r="7.5" cx="382.5" cy="247.6202"/></g>
+    <g class="" irt:ref="TISSUE" id="y.node.6"><rect x="680" y="0" width="500" rx="4" ry="4" height="330"/><text font-size="15px" x="1133.8203" y="17.0806">Tissue</text></g>
+    <g class="irt-cells " irt:ref="Th2_ts" id="y.node.7"><rect x="790" y="195.1202" width="100" rx="4" ry="4" height="60"/><rect x="790" y="195.1202" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="817.5991" y="235.3336">Th2</text></g>
+    <g class="" irt:ref="V242_syn_il5_th2_ts" id="y.node.8"><circle r="7.5" cx="797.5" cy="247.6202"/><circle r="7.5" cx="797.5" cy="247.6202"/></g>
+    <g class="" irt:ref="IL5" id="y.node.9"><rect x="490" y="390" width="200" rx="4" ry="4" height="50"/><rect x="490" y="390" width="200" rx="4" ry="4" height="50"/><text font-size="26px" x="567.5991" y="425.2134">IL-5</text></g>
+    <g class="" irt:ref="V244_deg_il5" id="y.node.10"><circle r="7.5" cx="797.5" cy="415"/><circle r="7.5" cx="797.5" cy="415"/></g>
+    <g class="" irt:ref="V243_syn_il5_other" id="y.node.11"><circle r="7.5" cx="382.5" cy="415"/><circle r="7.5" cx="382.5" cy="415"/></g>
+    <g class="" irt:ref="V241_syn_il5_th2_ln" id="y.edge.2"><path d="M390 247.6202 L530 247.6202 L534.375 248.2452 L537.5 250.1202 L539.375 253.2452 L540 257.6202 L540 381.9757"/><path d="M540 389.9757 L545 377.9757 L540 380.9757 L535 377.9757 Z"/></g>
+    <g class="" irt:ref="V242_syn_il5_th2_ts" id="y.edge.3"><path d="M790 247.6202 L650 247.6202 L645.625 248.2452 L642.5 250.1202 L640.625 253.2452 L640 257.6202 L640 381.9757"/><path d="M640 389.9757 L645 377.9757 L640 380.9757 L635 377.9757 Z"/></g>
+    <g class="" irt:ref="V240_syn_il5_th2_bld" id="y.edge.4"><path d="M590 575.1174 L590 447.9792"/><path d="M590 439.9792 L585 451.9792 L590 448.9792 L595 451.9792 Z"/></g>
+    <g class="" irt:ref="V244_deg_il5" id="y.edge.1"><path d="M689.9759 415 L790 415"/></g>
+    <g class="" irt:ref="V243_syn_il5_other" id="y.edge.0"><path d="M390 415 L481.9512 415"/><path d="M489.9512 415 L477.9512 410 L480.9512 415 L477.9512 420 Z"/></g>
+    
+    
+    
+    
+    
+    
+  </g></svg>

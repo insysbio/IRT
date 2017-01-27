@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<p style="color:red;"><b>Demo version.</b> The information on this page refers to "IRT database 1.0" which can be obtained by purchasing the commercial license. Please contact the developers:<br/>
+<a href="mailto:irt@insysbio.ru?Subject=Comersial%20license">irt@insysbio.ru</a>, 
+<a href="http://irt.insysbio.ru">irt.insysbio.ru</a>
+</p>
+  <h1>IRT development</h1>  
+  <h2>Workflow of IRT development</h2>
+  <p>The following steps were undertaken:
+   <ol>
+    <li>Basing on the publicly available literature sources the main players of immune response (cells, cytokines, surface molecules, compartments) were identified.</li>
+    <li>Schemes visualizing of immune response were reconstructed and implemented. The schemes include activation/differentiation/proliferation of immune cells, effect of cytokines on immune cells, cell-to-cell interactions etc.</li>
+    <li>Basing on the schemes “immune response” model was constructed. Structure of the model takes into account all players and processes presented in the schemes.</li>
+    <li>Rate laws of the processes were derived on the basis of existing knowledge available in public domain.</li>
+    <li>Quantitative in vitro experimental data specifically describing particular processes of human immune response were collected from literature sources, analyzed, checked for completeness and processed accordingly.</li>
+    <li>“In vitro” models were developed taking into account all features of experimental design. These models include rate laws and parameters of “immune response” model.</li>
+    <li>“In vitro” models were fitted to corresponding in vitro experimental data and their parameters were identified.</li>
+    <li>Identifiability of the fitted parameters was explored in terms of calculation of 95% confidence intervals.</li>
+    <li>Several parameters of human “immune response” model were calculated using in vivo/clinical data on humans (cytokines half-life).</li>
+    <li>Initial values of species in blood and blood plasma were taken from the data on healthy subjects.</li>
+   </ol>
+  </p>
+
+  <h2>Data in IRT</h2>
+  <p>
+  The data search was performed using pubmed, google and google scholar. The following criteria to choose appropriate in vitro data for models calibration were applied:
+  <ol>
+    <li>Cultured immune cells were obtained only from healthy subjects (except, target cells for experiment describing cytotoxicity);</li>
+    <li>Activation of immune cells only with natural activators (cytokines, CD40 ligand) or imitating natural activators (anti-CD3 antibody, anti-CD28 antibody);</li>
+    <li>Data with artificial activators/stimulators (PMA, ionomycin) were excluded;</li>
+    <li>Data with full description of experimental design (duration of culturing, concentrations of all mediators etc.)</li>
+The data met the criteria were extracted from the literature, digitized and processed to the format appropriate for their use in fitting. These processed datasets are included in IRT.  
+In vivo data on cytokines intravenous infusion (half-life) in healthy subjects or cancer patients were collected and used to calculate degradation rate constants for cytokines in blood plasma.  
+For initial values of variables in blood data on levels of cytokine concentrations and immune cell count in vivo in healthy subjects were collected and used.
+  </ol>
+  </p>
+  
+  <h2>Mathematical models</h2>
+  <p>
+All mathematical models of IRT are based on system of ordinary differential equations. Rate laws are described as mass action law (irreversible or reversible), Michaelis-Menten equation or Hill equation. The effects of cytokines are also described using first order equation or Michaelis-Menten like equations. 
+  </p>
+  <p>
+  All models were developed using the DBSolve Optimum package [PMID: 20698988]. After development and calibration models were then transformed to sbml format.
+  </p>
+  <p>
+  Fitting of parameters were performed using with DBSolve Optimum package [PMID: 20698988]. 95% confidence intervals for fitted parameters were calculated using method based on likelihood ratio test [PMID: 26099035].
+</p>
+
+</html>

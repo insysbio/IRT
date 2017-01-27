@@ -1,0 +1,4 @@
+<p style="color:red;"><b>Demo version.</b> The information on this page refers to "IRT database 1.0" which can be obtained by purchasing the commercial license. Please contact the developers:<br/>
+<a href="mailto:irt@insysbio.ru?Subject=Comersial%20license">irt@insysbio.ru</a>, 
+<a href="http://irt.insysbio.ru">irt.insysbio.ru</a>
+</p>

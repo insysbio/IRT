@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<g>
+  <pattern id="hatchOne" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10">
+      <path d="M10,0 l-10,10"/>
+  </pattern>
+  <pattern id="hatchTwo" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10">
+      <path d="M0,0 l10,10"/>
+  </pattern>  
+  <pattern id="hatchBoth" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10">
+      <path d="M10,0 l-10,10"/>
+      <path d="M0,0 l10,10"/>
+  </pattern>
+</g>
+</svg>

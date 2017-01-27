@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexes xmlns="http://irt.insilicobio.ru/ns" name="Immune Response Tempate" version="1.0 demo" copyright="Institute for Systems Biology (Moscow)">
+  <schemes>
+    <scheme id="Th2" name="Th2 cell passport" active="true" model="main">
+      <description>T Helper 2 (Th2) cell passport is a scheme describing Th2 cells activation, differentiation, proliferation, apoptosis, migration between compartments and cytokines produced by Th2 cells. Developed by Antonina Nikitich and Oleg Demin Jr.</description>
+      <term ref="LN" type="compartment"/>
+      <term ref="TISSUE" type="compartment"/>
+      <term ref="BLOOD" type="compartment"/>
+      <term ref="Th2_ts" type="species"/>
+      <term ref="Th0_ln" type="species"/>
+      <term ref="Th2_bld" type="species"/>
+      <term ref="IL10" type="species"/>
+      <term ref="IL4" type="species"/>
+      <term ref="IL13" type="species"/>
+      <term ref="TGFb" type="species"/>
+      <term ref="IL5" type="species"/>
+      <term ref="IL2" type="species"/>
+      <term ref="Th2_ln" type="species"/>
+      <term ref="mDC1_ln" type="species"/>
+      <term ref="Bi_ln" type="species"/>
+      <term ref="mDC1a_ln" type="species"/>
+      <term ref="Ba_ln" type="species"/>
+      <term ref="CD8086_cd4" type="species"/>
+      <term ref="MHC2" type="species"/>
+      <term ref="MHC2" type="species"/>
+      <term ref="CD8086_cd4" type="species"/>
+      <term ref="CTLA4_th0_total" type="species"/>
+      <term ref="CD8086_cd4" type="species"/>
+      <term ref="MHC2" type="species"/>
+      <term ref="MHC2" type="species"/>
+      <term ref="CD8086_cd4" type="species"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V54_th0_to_th2_ln" type="reaction"/>
+      <term ref="V55_apo_th2_ln" type="reaction"/>
+      <term ref="V55_apo_th2_ln" type="reaction"/>
+      <term ref="V56_pro_th2_ln" type="reaction"/>
+      <term ref="V56_pro_th2_ln" type="reaction"/>
+      <term ref="V56_pro_th2_ln" type="reaction"/>
+      <term ref="V56_pro_th2_ln" type="reaction"/>
+      <term ref="V56_pro_th2_ln" type="reaction"/>
+      <term ref="V57_ln_to_bld_th2" type="reaction"/>
+      <term ref="V57_ln_to_bld_th2" type="reaction"/>
+      <term ref="V57_ln_to_bld_th2" type="reaction"/>
+      <term ref="V58_apo_th2_bld" type="reaction"/>
+      <term ref="V58_apo_th2_bld" type="reaction"/>
+      <term ref="V59_bld_to_ts_th2" type="reaction"/>
+      <term ref="V59_bld_to_ts_th2" type="reaction"/>
+      <term ref="V59_bld_to_ts_th2" type="reaction"/>
+      <term ref="V60_apo_th2_ts" type="reaction"/>
+      <term ref="V60_apo_th2_ts" type="reaction"/>
+      <term ref="V61_ts_to_ln_th2" type="reaction"/>
+      <term ref="V61_ts_to_ln_th2" type="reaction"/>
+      <term ref="V61_ts_to_ln_th2" type="reaction"/>
+      <term ref="V204_syn_il10_th2_bld" type="reaction"/>
+      <term ref="V204_syn_il10_th2_bld" type="reaction"/>
+      <term ref="V208_syn_il10_th2_ln" type="reaction"/>
+      <term ref="V208_syn_il10_th2_ln" type="reaction"/>
+      <term ref="V213_syn_il10_th2_ts" type="reaction"/>
+      <term ref="V213_syn_il10_th2_ts" type="reaction"/>
+      <term ref="V235_syn_il4_th2_bld" type="reaction"/>
+      <term ref="V235_syn_il4_th2_bld" type="reaction"/>
+      <term ref="V236_syn_il4_th2_ln" type="reaction"/>
+      <term ref="V236_syn_il4_th2_ln" type="reaction"/>
+      <term ref="V237_syn_il4_th2_ts" type="reaction"/>
+      <term ref="V237_syn_il4_th2_ts" type="reaction"/>
+      <term ref="V245_syn_il13_th2_bld" type="reaction"/>
+      <term ref="V245_syn_il13_th2_bld" type="reaction"/>
+      <term ref="V246_syn_il13_th2_ln" type="reaction"/>
+      <term ref="V246_syn_il13_th2_ln" type="reaction"/>
+      <term ref="V247_syn_il13_th2_ts" type="reaction"/>
+      <term ref="V247_syn_il13_th2_ts" type="reaction"/>
+      <term ref="V240_syn_il5_th2_bld" type="reaction"/>
+      <term ref="V240_syn_il5_th2_bld" type="reaction"/>
+      <term ref="V241_syn_il5_th2_ln" type="reaction"/>
+      <term ref="V241_syn_il5_th2_ln" type="reaction"/>
+      <term ref="V242_syn_il5_th2_ts" type="reaction"/>
+      <term ref="V242_syn_il5_th2_ts" type="reaction"/>
+    </scheme>
+    <scheme id="IL-4" name="IL-4 sources profile" active="true" model="main">
+      <description>IL-4 sources profile is a scheme describing cells producing IL-4 and cytokines that affects its production by these cells. Developed by Antonina Nikitich and Oleg Demin Jr.</description>
+      <term ref="LN" type="compartment"/>
+      <term ref="TISSUE" type="compartment"/>
+      <term ref="BLOOD" type="compartment"/>
+      <term ref="Th2_bld" type="species"/>
+      <term ref="Th2_ts" type="species"/>
+      <term ref="IL4" type="species"/>
+      <term ref="Th2_ln" type="species"/>
+      <term ref="V235_syn_il4_th2_bld" type="reaction"/>
+      <term ref="V235_syn_il4_th2_bld" type="reaction"/>
+      <term ref="V236_syn_il4_th2_ln" type="reaction"/>
+      <term ref="V236_syn_il4_th2_ln" type="reaction"/>
+      <term ref="V237_syn_il4_th2_ts" type="reaction"/>
+      <term ref="V237_syn_il4_th2_ts" type="reaction"/>
+      <term ref="V238_syn_il4_other" type="reaction"/>
+      <term ref="V238_syn_il4_other" type="reaction"/>
+      <term ref="V239_deg_il4" type="reaction"/>
+      <term ref="V239_deg_il4" type="reaction"/>
+    </scheme>
+    <scheme id="IL-5" name="IL-5 sources profile" active="true" model="main">
+      <description>IL-5 sources profile is a scheme describing cells producing IL-5 and cytokines that affects its production by these cells. Developed by Antonina Nikitich and Oleg Demin Jr.</description>
+      <term ref="LN" type="compartment"/>
+      <term ref="TISSUE" type="compartment"/>
+      <term ref="BLOOD" type="compartment"/>
+      <term ref="Th2_bld" type="species"/>
+      <term ref="Th2_ts" type="species"/>
+      <term ref="IL5" type="species"/>
+      <term ref="Th2_ln" type="species"/>
+      <term ref="V240_syn_il5_th2_bld" type="reaction"/>
+      <term ref="V240_syn_il5_th2_bld" type="reaction"/>
+      <term ref="V241_syn_il5_th2_ln" type="reaction"/>
+      <term ref="V241_syn_il5_th2_ln" type="reaction"/>
+      <term ref="V242_syn_il5_th2_ts" type="reaction"/>
+      <term ref="V242_syn_il5_th2_ts" type="reaction"/>
+      <term ref="V243_syn_il5_other" type="reaction"/>
+      <term ref="V243_syn_il5_other" type="reaction"/>
+      <term ref="V244_deg_il5" type="reaction"/>
+      <term ref="V244_deg_il5" type="reaction"/>
+    </scheme>
+  </schemes>
+  <models>
+    <model id="main" name="Immune Response Template Model" path="models/main.xml" active="true">
+      <description>Immune Response Model Template (IRMT) describes the immune response in human subjects including main immune processes as activation/differentiation, proliferation, apoptosis, maturation of immune cells, cytokines production, degradation and their effects, migration of cells between different compartments. Developed by Oleg Demin Jr and Antonina Nikitich.
+</description>
+    </model>
+  </models>
+  <databases>
+    <database id="wikipedia" type="online" suffix="https://en.wikipedia.org/wiki/"/>
+    <database id="uniprot" type="online" suffix="http://www.uniprot.org/uniprot/"/>
+    <database id="amigo" type="online" suffix="http://amigo.geneontology.org/amigo/term/"/>
+    <database id="pubmed" type="online" suffix="http://www.ncbi.nlm.nih.gov/pubmed/"/>
+    <database id="pmbooks" type="online" suffix="http://www.ncbi.nlm.nih.gov/books/"/>
+    <database id="web" type="online" suffix=""/>
+    <database id="doi" type="online" suffix="https://dx.doi.org/"/>
+  </databases>
+  <pages>
+   <page id="about" name="About IRT"  path="pages/about.xhtml"/>
+   <page id="versions" name="Versions"  path="pages/versions.xhtml"/>
+   <page id="structure" name="Structure"  path="pages/structure.xhtml"/>
+   <page id="howto" name="How to"  path="pages/howto.xhtml"/>
+   <page id="whatafter" name="Recommendations for templates"  path="pages/whatafter.xhtml"/>
+   <page id="development" name="IRT development" path="pages/development.xhtml"/>
+  </pages>
+  <identifications path="iddb/iddb.xml" />
+  <save/>
+</indexes>

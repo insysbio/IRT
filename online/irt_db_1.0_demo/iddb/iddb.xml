@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iddb xmlns="http://irt.insilicobio.ru/ns">
+  <identification id="o:blank" type="arbitrary">
+    <notes>-</notes>
+    <annotation/>
+  </identification>
+  <identification id="o:unknown" type="arbitrary">
+    <notes>The value cannot be calculated on the basis available in vivo data and cannot be fitted using in vitro data.</notes>
+    <annotation/>
+  </identification>
+  <identification id="o:cond" type="arbitrary">
+    <notes>The value should be chosen depending on specific model conditions.</notes>
+    <annotation/>
+  </identification>
+  <identification id="o:absent" type="arbitrary">
+    <notes>The value was not identified in the current database version.</notes>
+    <annotation/>
+  </identification>
+  <identification id="m:th2" type="fitted">
+    <notes>The model describes differentiation of naïve T helper cells (Th0 in the model) into T helper cells type 2 (Th2), effect of IL-4 on Th2 differentiation, Th2 proliferation, IL-2 effect on Th2 proliferation, production of IL-5, IL-13, IL-10 by Th2.</notes>
+    <annotation>
+      <ref db="pubmed" ref="23994109"/>
+      <ref db="pubmed" ref="20421880"/>
+      <attachedFile path="th2.zip"/>
+      <attachedFile path="confidence intervals th2.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00001" type="taken">
+    <notes></notes>
+    <annotation>
+      <ref db="pubmed" ref="14978070"/>
+    </annotation>
+  </identification>
+  <identification id="i:00002" type="taken">
+    <notes></notes>
+    <annotation>
+      <ref db="web" ref="http://www.nanomedicine.com/NMIIA.htm"/>
+    </annotation>
+  </identification>
+  <identification id="i:00003" type="taken">
+    <notes></notes>
+    <annotation>
+      <ref db="pubmed" ref="5779153"/>
+    </annotation>
+  </identification>
+  <identification id="i:00004" type="taken">
+    <notes>Thoracic duct lymph flow rate is about 1mL/min (=0.06 L/hour).</notes>
+    <annotation>
+      <ref db="pubmed" ref="23555523"/>
+    </annotation>
+  </identification>
+  <identification id="i:00012" type="taken">
+    <notes> The value of parameter describing IL-4 degradation is calculated on the basis of the data on IL-4 half-life in plasma after IL-4 IV administration in humans.</notes>
+    <annotation>
+      <ref db="pubmed" ref="8398297"/>
+      <attachedFile path="IL4_deg.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00018" type="taken">
+    <notes>The value was calculated on the basis of data on total CD4 T cells and the percent of Th2 (IL-4 positive) cells.</notes>
+    <annotation>
+      <ref db="pubmed" ref="24496456"/>
+      <ref db="pubmed" ref="15242966"/>
+      <ref db="pubmed" ref="26174551"/>
+      <attachedFile path="Th2_level.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00023" type="taken">
+    <notes>The value of each cytokine was taken equal to its level in blood serum of healthy subjects.</notes>
+    <annotation>
+      <ref db="pubmed" ref="23533306"/>
+      <attachedFile path="cytokines_level.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00024" type="taken">
+    <notes>The value was taken equal to the level of TGFb in blood serum of healthy subjects.</notes>
+    <annotation>
+      <ref db="pubmed" ref="15610925"/>
+      <attachedFile path="TGFb_level.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00025" type="taken">
+    <notes>The value of each cytokine was taken equal to its level in blood serum of healthy subjects.</notes>
+    <annotation>
+      <ref db="pubmed" ref="24666229"/>
+      <attachedFile path="IL5_IL15_IL1b_level.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00030" type="taken">
+    <notes>The value was taken equal to number of CTLA-4 molecules per one T cell.</notes>
+    <annotation>
+      <ref db="pubmed" ref="19479036"/>
+      <attachedFile path="ctla4_number.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00032" type="taken">
+    <notes>The value was calculated on the basis of data on number of CD86 molecules per one B cell and effect of antigen (LPS) on CD86 expression on B cells.</notes>
+    <annotation>
+      <ref db="pubmed" ref="17204999"/>
+      <attachedFile path="cd8086_b_cell_number.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="i:00033" type="taken">
+    <notes>The value was calculated on the basis of data on number of MHC class II molecules per one iDC cell and effect of antigen (LPS) on MHC class II expression on dendritic cells.</notes>
+    <annotation>
+      <ref db="pubmed" ref="16210595"/>
+      <ref db="pubmed" ref="22025302"/>
+      <attachedFile path="mhc2_dc_number.pdf"/>
+    </annotation>
+  </identification>
+  <identification id="r:00001" type="derived">
+    <notes>The equation was derived in accordance with zero-order reaction including stimulation and inhibition by other species (if it is presented).</notes>
+    <annotation/>
+  </identification>
+  <identification id="r:00002" type="derived">
+    <notes>The equation was derived in accordance with first-order reaction including stimulation and inhibition by other species (if it is presented).</notes>
+    <annotation/>
+  </identification>
+  <identification id="r:00003" type="derived">
+    <notes>Concentration of each surface molecule was described as total concentration on all cells of particular type (for example, CTL, Target cells, APC including B cells and DC) in particular compartment.</notes>
+    <annotation/>
+  </identification>
+  <identification id="r:00004" type="derived">
+    <notes>Inhibitory effects of species on processes were described by Michaelis-Menten like equations. Stimulatory effects of species on processes were described by linear dependences.</notes>
+    <annotation/>
+  </identification>
+</iddb>
+

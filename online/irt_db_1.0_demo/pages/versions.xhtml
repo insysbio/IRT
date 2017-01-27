@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<p style="color:red;"><b>Demo version.</b> The information on this page refers to "IRT database 1.0" which can be obtained by purchasing the commercial license. Please contact the developers:<br/>
+<a href="mailto:irt@insysbio.ru?Subject=Comersial%20license">irt@insysbio.ru</a>, 
+<a href="http://irt.insysbio.ru">irt.insysbio.ru</a>
+</p>
+  <h1>Versions</h1>
+    <h2>IRT database 1.0</h2>
+  <h3>List of cells, cytokines, surface molecules, compartments</h3>
+  <p>
+    IRT database 1.0 includes description of the following cells, cytokines, surface molecules and compartments:
+     <div class="w3-row w3-padding">
+     <div class="w3-quarter w3-padding">
+      <ul class="w3-ul w3-border w3-center w3-small w3-card-2">
+        <li class="w3-orange"><h5>#1. Immune cells</h5></li>
+        <li>NK cells</li>
+        <li>Dendritic cells</li>
+        <li>Macrophages</li>
+        <li>MDSC</li>
+        <li>B cells</li>
+        <li>Naïve CD4 T cells</li>
+        <li>Th1</li>
+        <li>Th2</li>
+        <li>Th17</li>
+        <li>Treg</li>
+        <li>Naïve CD8 T cells</li>
+        <li>CTL</li>
+      </ul>
+      </div>
+      <div class="w3-quarter w3-padding">
+      <ul class="w3-ul w3-border w3-center w3-small w3-card-2">
+        <li class="w3-orange"><h5>#2. Cytokines</h5></li>
+        <li>GM-CSF</li>
+        <li>M-CSF</li>
+        <li>IFNg</li>
+        <li>TNFa</li>
+        <li>TGFb</li>
+        <li>IL-1b</li>
+        <li>IL-2</li>
+        <li>IL-4</li>
+        <li>IL-5</li>
+        <li>IL-6</li>
+        <li>IL-10</li>
+        <li>IL-12</li>
+        <li>IL-13</li>
+        <li>IL-15</li>
+        <li>IL-17 (A,F)</li>
+        <li>IL-18</li>
+        <li>IL-23</li>
+      </ul>
+      </div>
+      <div class="w3-quarter w3-padding">
+      <ul class="w3-ul w3-border w3-center w3-small w3-card-2">
+        <li class="w3-orange"><h5>#3. Surface molecules</h5></li>
+        <li>CD3 (implicitly) / MHC-I / MHC-II</li>
+        <li>CD28 (implicitly) / CD80/86 / CTLA-4</li>
+        <li>CD40 (implicitly) / CD40L</li>
+        <li>PD-1 / PD-L1</li>
+      </ul>
+      </div>
+      <div class="w3-quarter w3-padding">
+      <ul class="w3-ul w3-border w3-center w3-small w3-card-2">
+        <li class="w3-orange"><h5>#4. Compartments</h5></li>
+        <li>Blood / Blood plasma</li>
+        <li>Lymph Nodes</li>
+        <li>Inflamed Tissue</li>
+      </ul>
+      </div>
+     </div>
+  </p>
+  
+  <h3>Parameters</h3>
+  <p>About 30% parameters of "immune response" model included in the IRT database 1.0 are identified.</p>
+  
+  <h3>In vitro models</h3>
+  <p>IRT database 1.0 includes "in vitro" models of following immune cells: B cells, CD8 T cells, dendritic cells, macrophages, NK cells, peripheral blood monocytes, Th1 cells, Th2 cells, Th17 cells and regulatory T cells.</p>
+
+  <h3>Description of effect of co-stimulatory and co-inhibitory surface molecules</h3>
+  <p>The description of effect of co-stimulatory and co-inhibitory surface molecules in “immune response” model included in IRT database 1.0 is presented below.</p>
+  <p>The way of implementation of effect of co-stimulatory and co-inhibitory surface molecules on cell dynamics processes mediated by cell-to-cell interaction are illustrated by following example.</p>
+  <p>Let us consider reaction of specific lysis of target (tumor) cell by CTL. The process can be inhibited by PD-1:PD-L1 interaction, where PD-1 is expressed on CTL and PD-L1 is expressed on target cell.</p>
+  <p>
+  Rate law of the process can be presented by following expression:
+$$ V = k \cdot Target \cdot CTL \cdot inhibitory\_function\left(PD1\_PDL1\right). \tag{1}$$
+  Here, \(k\) is rate constant of the process expressed in \(\{l/Kcell/h\}\), Target and CTL are cell counts expressed in \(\{Kcell/k\}\) and "inhibitory_function" is term of the rate law responsible for co-inhibitory effect, \(PD1\_PDL1\) is concentration of PD-1:PD-L1 complex.
+  </p>
+  <p>To describe the co-inhibitory effect we have assumed that the "inhibitory_function" is monotonously decreasing dependence of concentration of PD-1:PD-L1 complex:<br/>
+$$inhibitory\_function(PD1\_PDL1) = 1-Emax \cdot \frac{PD1\_PDL1}{PD1\_PDL1+EC50}.\tag{2}$$
+  </p>
+  
+  <p>Concentration of PD-1:PD-L1 complex can be expressed in terms of free concentrations of PD1 and PDL1:
+$$PD1\_PDL1 = \frac{PD1 \cdot PDL1}{Kd\_pd1\_pdl1}, \tag{3}$$
+   where PD1 and PDL1 are free concentrations of the corresponding surface molecules and Kd_pd1_pdl1 is equilibrium dissociation constant.
+   </p>
+  <p>Substituting (3) and (2) into (1), obtains
+$$ V = k \cdot Target \cdot CTL \cdot \left(1-Emax\cdot \frac{PD1 \cdot PDL1/Kd\_pd1\_pdl1}{PD1 \cdot PDL1/Kd\_pd1\_pdl1+EC50}\right), \tag{4} $$
+Combining \(Kd\_pd1\_pdl1\) with \(EC50\) in equation (5) we can come to following expression:
+<br/><br/>
+$$ V = k \cdot Target \cdot CTL \cdot \left(1-Emax \cdot \frac{PD1 \cdot PDL1}{PD1 \cdot PDL1+EC50’}\right) \tag{5}$$
+where \( EC50’ = EC50 \cdot Kd\_pd1\_pdl1 \)
+</p>
+<p>
+Taking into account that concentrations of PD-1 on CTL and PD-L1 on Target cell can be expressed in terms of the corresponding cell count:
+$$ PD1 = c\_pd1 \cdot CTL $$
+$$ PDL1 = c\_pdl1 \cdot Target, \tag{6} $$
+where \(c\_pd1\) and \(c\_pdl1\) describes the number of PD-1 and PD-L1 molecules per CTL and Target \( \{ pmol/kcell \} \), correspondently, 
+and substituting equation (6) into equation (5), one obtains: 
+$$ V = k \cdot Target \cdot CTL \cdot \left(1-Emax \cdot \frac{PD1 \cdot PDL1 }{PD1 \cdot PDL1+EC50’} \right) = \\
+       k \cdot Target \cdot CTL \cdot \left(1-\frac{Emax \cdot c\_pd1 \cdot CTL \cdot c\_pdl1 \cdot Target}{ c\_pd1 \cdot CTL \cdot c\_pdl1 \cdot Target 
+      +EC50’} \right)  \tag{7}$$
+Combining \( EC50’ \) with \( c\_pd1 \) and \( c\_pdl1 \) we can come to following expression:
+$$ V = k \cdot Target \cdot CTL \cdot \left(1-Emax \cdot \frac{CTL \cdot Target }{ CTL \cdot Target +EC50’’} \right) \tag{8} $$
+where \( EC50’’ = EC50’ / (c\_pd1 \cdot c\_pdl1)\). Effect of other surface molecules are described in the same way.
+</p>
+<h3>Model assumptions</h3>
+<p>
+"Immune response" model included in the IRT database 1.0 was developed using the set of assumptions. The list of assumptions is presented here:
+<ol>
+  <li>Bi cells (intermediate activated B cells after antigen recognition) could not proliferate [PMID: 22926059].</li>
+  <li>Naive CD8 T cells could not proliferate w/o stimulation [PMID: 16611649].</li>
+  <li>All types of dendritic cells could not proliferate [PMID: 10416127].</li>
+  <li>Cytokines stimulate cytokine production by non-activated CD56bright NK cells, but not CD56dim. Only combination of cytokines (not alone cytokine) could stimulate cytokine synthesis. There is no cytokine production by non-stimulated non-activated NK cells (both CD56bright and CD56dim) [PMID: 10201989; 11342442; 11241284; 12480696].</li>
+  <li>Cytokines (IL-2, IL-15) stimulate non-activated CD56bright and CD56dim NK cells proliferation [PMID: 7523571].The effect of IL-2 and IL-15 on proliferation is equal [PMID: 7523571]. The effect of cytokines on CD56bright and CD56dim NK cells proliferation is equal.</li>
+  <li>Simplification – effects of cytokines combination on cytokine synthesis by CD56bright NK cells are described by 1st order equations, e.g., without saturation.</li>
+  <li>Antigen induces PBM differentiation into both PBM1 and PBM2 but with different rates.</li>
+  <li>Effect of IL-2 on Th1, Th2 and Treg cells proliferation is similar.</li>
+  <li>IL-2 does not affect Th17 cells proliferation [PMID: 21905024].</li>
+  <li>Th1, Th2, Th17, Treg and CTL could proliferate only in lymph nodes.</li>
+  <li>PBM and MDSC do not proliferate.</li>
+  <li>There is no direct effect of cytokines on cell migration and cytokine production by cells (except NK).</li>
+  <li>Only Th1 cells could license DC and B cells.</li>
+  <li>eCTL could not proliferate and produce IFNg/TNFa.</li>
+  <li>iDCa (immature DC activated by CD40L) does not take into account. </li>
+  <li>Only mDC1, mDC1a, Bi and Ba could present antigen to T cells.</li>
+  <li>Th0 cells do not produce IL-2 [PMID: 7875222].</li>
+  <li>iMph1 and iMph2 do not produce cytokines/chemokines [PMID: 22880072].</li>
+  <li>Only CD56 dim NK cells could migrate into tissue and kill target cells.</li>
+  <li>PD-1 is expressed on activated T cells, but not on naïve T cells [PMID: 18173375]. It was shown that PD-1:PD-L1 interaction between T cells and APC could inhibit T cell activation [PMID: 22900886]. The activation of T cells by APC is a complex process, but in the model it is described as one reaction (interaction of naïve T cells with APC). It is assumed in the model that PD-1 is expressed on naïve T cells and PD-1:PD-L1 interaction inhibits T cell activation. On the basis of [PMID: 22306905] it is assumed that PD-1:PD-L1 interaction inhibits the differentiation of Th1 and Th17 cells from naïve CD4 T cells and differentiation of CTL from naïve CD8 T cells. It is assumed that the effect of PD-1:PD-L1 interaction on differentiation of Th1 and Th17 cells is similar.</li>
+</ol>
+</p>
+
+
+  <h2>IRT navigator 1.0</h2>
+<p>IRT navigator 1.0 includes following functionality:
+<ul>
+<li>visualization of description and annotation of IRT database components: equations, species, parameters
+</li>
+<li>access to supplementary materials including files related to "in vitro" models, files with description of parameters calculation and estimation of initial values for species
+</li>
+<li>navigation across multiple schemes describing different species and processes of IRT database
+</li>
+<li>automatic generation of model template based on the user selection which can be downloaded as fully annotated SBML file (version L2V4) including the ability to include or not to include the description of species types in output model
+</li>
+</ul>
+</p>
+</html>

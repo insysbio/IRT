@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<p style="color:red;"><b>Demo version.</b> The information on this page refers to "IRT database 1.0" which can be obtained by purchasing the commercial license. Please contact the developers:<br/>
+<a href="mailto:irt@insysbio.ru?Subject=Comersial%20license">irt@insysbio.ru</a>, 
+<a href="http://irt.insysbio.ru">irt.insysbio.ru</a>
+</p>
+  <h1>Structure</h1>
+  <p>
+  IRT database 1.0 includes the following components:
+    <ol>
+      <li>Schemes describing cells, cytokines and surface molecules involved in human immune response as well as their interactions and other processes related to these species.</li>
+      <li>"Immune response" model describing species and processes presented on schemes.</li>
+      <li>Full annotation (presented in the model and on schemes) of all processes, cells, cytokines, surface molecules including references to published experimental data and external databases.</li>
+      <li>Supplementary files describing the calculation of parameters on the basis of clinical/in vivo data on humans (cytokines half-life in humans) and estimation of initial values of species in blood and blood plasma/serum of healthy subjects.</li>
+      <li>Supplementary files with “in vitro” models for immune cells (describing particular in vitro experiments) and digitized in vitro experimental data that were used to identify the part of parameters.</li>
+      <li>Supplementary files describing the 95% confidence intervals for fitted parameters.</li>
+    </ol>
+  </p>
+    <h2>Schemes in IRT</h2>
+    <p>
+    There are 2 types of schemes were implemented in IRT database 1.0. First type is <b>"passport of immune cell"</b>. Each of the schemes of such type is focused on specific immune cell and visualizes literature available experimental facts on 
+    <ul>
+      <li>activation/differentiation and proliferation of the cell </li>
+      <li>cell-to-cell contact of the cell via surface molecules of other immune cells;</li>
+      <li>migration of the cell between blood, lymph node and tissue</li>
+      <li>cytokines which are synthesized by this type of cell upon activation </li>
+      <li>cytokines/cells that affect this type of cell</li>
+    </ul>
+    Second type of the schemes is <b>"cytokine sources profile"</b>. This type of the schemes visualizes literature available experimental facts on
+    <ul>
+      <li>production of the cytokine by different immune cells located in blood, lymph node and tissue</li>
+      <li>cytokine degradation</li>
+      <li>regulation of production of the cytokine by other cytokines</li>
+    </ul>
+    </p>
+    <h2>Mathematical models</h2>
+    <p>
+    IRT database 1.0 includes 2 types of models: 
+    <ul>
+      <li>"Immune response" model which includes all processes, regulations, cytokines, cell states, cell types and surface molecules represented in all “passport of immune cells” and “cytokine source profiles”. Rate laws were derived on the basis of existing knowledge on dynamics of immune cells and its regulation with different cytokines and cell-to-cell interactions. A part of parameters of the model were identified via fitting of "in vitro" models to corresponding in vitro data. Several parameters of were calculated on the basis of available in vivo data. Initial values of species correspond to cytokine concentrations and cell counts measured in vivo in healthy subjects.</li>
+      <li>"In vitro" models are developed in such a way to describe in vitro data measured in specific experiments. Models include rate laws and parameters of immune response model as well as auxiliary rate equations, variables and parameters describing specifics of design of corresponding in vitro experiments. Parameters were identified via fitting of models to corresponding in vitro data. Initial values of variables and boundary conditions were chosen in such a way to describe all features of experimental design of corresponding in vitro dataset. These models are attached to the database including models in sbml and slv (DBSolveOptimum) formats, model code annotated in xls file with detailed description of rates, parameters, variables, presentations with model and its calibration description, digitized data that were used for model calibration.</li>
+    </ul>
+    </p>
+</html>

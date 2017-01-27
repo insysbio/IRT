@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:irt="http://irt.insilicobio.ru/ns" irt:passport="Th2" width="100%" height="100%" viewBox="0 0 1210 740"><g>
+    
+    
+    <g class="irt-cells " irt:ref="mDC1_ln" id="y.node.0"><rect x="90" y="20" width="100" rx="4" ry="4" height="60"/><rect x="90" y="20" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="103.1646" y="60.2134">mDC1</text></g>
+    <g class="irt-cells " irt:ref="Bi_ln" id="y.node.1"><rect x="260" y="20" width="100" rx="4" ry="4" height="60"/><rect x="260" y="20" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="298.4409" y="60.2134">Bi</text></g>
+    <g class="" irt:ref="LN" id="y.node.2"><rect x="0" y="0" width="500" rx="4" ry="4" height="330"/><text font-size="15px" x="415.4414" y="17.0806">Lymph node</text></g>
+    <g class="irt-cells " irt:ref="V57_ln_to_bld_th2" id="y.node.3"><circle r="7.5" cx="410" cy="222.5"/><circle r="7.5" cx="410" cy="222.5"/></g>
+    <g class="irt-cells " irt:ref="V54_th0_to_th2_ln" id="y.node.4"><circle r="7.5" cx="225" cy="165"/><circle r="7.5" cx="225" cy="165"/></g>
+    <g class="irt-cells " irt:ref="Th2_ln" id="y.node.5"><rect x="360" y="135" width="100" rx="4" ry="4" height="60"/><rect x="360" y="135" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="387.5991" y="175.2134">Th2</text></g>
+    <g class="" irt:ref="V208_syn_il10_th2_ln" id="y.node.6"><circle r="7.5" cx="452.5" cy="187.5"/><circle r="7.5" cx="452.5" cy="187.5"/></g>
+    <g class="" irt:ref="V246_syn_il13_th2_ln" id="y.node.7"><circle r="7.5" cx="452.5" cy="172.5"/><circle r="7.5" cx="452.5" cy="172.5"/></g>
+    <g class="" irt:ref="V241_syn_il5_th2_ln" id="y.node.8"><circle r="7.5" cx="437.5" cy="187.5"/><circle r="7.5" cx="437.5" cy="187.5"/></g>
+    <g class="irt-cells " irt:ref="V55_apo_th2_ln" id="y.node.9"><circle r="7.5" cx="452.5" cy="102.5"/><circle r="7.5" cx="452.5" cy="102.5"/></g>
+    <g class="irt-cells " irt:ref="V56_pro_th2_ln" id="y.node.10"><circle r="7.5" cx="410" cy="102.5"/><circle r="7.5" cx="410" cy="102.5"/></g>
+    <g class="" irt:ref="V236_syn_il4_th2_ln" id="y.node.11"><circle r="7.5" cx="422.5" cy="187.5"/><circle r="7.5" cx="422.5" cy="187.5"/></g>
+    <g class="irt-cells " irt:ref="Th0_ln" id="y.node.12"><rect x="40" y="135" width="100" rx="4" ry="4" height="60"/><rect x="40" y="135" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="67.5991" y="175.2134">Th0</text></g>
+    <g class="" irt:ref="MHC2" id="y.node.43"><rect x="260" y="65" width="37" rx="4" ry="4" height="30"/><rect x="260" y="65" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="261.502" y="84.7139">MHCII</text></g>
+    <g class="" irt:ref="MHC2" id="y.node.44"><rect x="153" y="65" width="37" rx="4" ry="4" height="30"/><rect x="153" y="65" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="154.502" y="84.7139">MHCII</text></g>
+    <g class="" irt:ref="CTLA4_th0_total" id="y.node.46"><rect x="103" y="120" width="37" rx="4" ry="4" height="30"/><rect x="103" y="120" width="37" rx="4" ry="4" height="30"/><text font-size="10px" x="104.2734" y="138.9282">CTLA-4</text></g>
+    
+    <g class="irt-cells " irt:ref="V57_ln_to_bld_th2" id="y.edge.27"><path d="M407.5 195.0001 L407.5 215 L412.5 215 L412.5 195.0001 Z"/><path d="M407.5 195.0001 L407.5 215 L412.5 215 L412.5 195.0001 Z"/></g>
+    <g class="irt-cells " irt:ref="V54_th0_to_th2_ln" id="y.edge.29"><path d="M341.9902 157.5 L344.9902 162.5 L232.5 162.5 L232.5 167.5 L344.9902 167.5 L341.9902 172.5 L359.9902 165 L341.9902 157.5 Z"/><path d="M341.9902 157.5 L344.9902 162.5 L232.5 162.5 L232.5 167.5 L344.9902 167.5 L341.9902 172.5 L359.9902 165 L341.9902 157.5 Z"/></g>
+    <g class="irt-cells " irt:ref="V55_apo_th2_ln" id="y.edge.30"><path d="M450 110 L450 134.9609 L455 134.9609 L455 110 Z"/><path d="M450 110 L450 134.9609 L455 134.9609 L455 110 Z"/></g>
+    <g class="irt-cells " irt:ref="V56_pro_th2_ln" id="y.edge.31"><path d="M417.5 100 L417.5 105 L427.5 105 L427.5 134.9609 L432.5 134.9609 L432.5 102.5 L432.5 100 Z"/><path d="M417.5 100 L417.5 105 L427.5 105 L427.5 134.9609 L432.5 134.9609 L432.5 102.5 L432.5 100 Z"/></g>
+    <g class="irt-cells " irt:ref="V56_pro_th2_ln" id="y.edge.32"><path d="M387.5 100 L387.5 102.5 L387.5 119.9761 L382.5 116.9761 L390 134.9761 L397.5 116.9761 L392.5 119.9761 L392.5 105 L402.5 105 L402.5 100 Z"/><path d="M387.5 100 L387.5 102.5 L387.5 119.9761 L382.5 116.9761 L390 134.9761 L397.5 116.9761 L392.5 119.9761 L392.5 105 L402.5 105 L402.5 100 Z"/></g>
+    <g class="irt-cells " irt:ref="V54_th0_to_th2_ln" id="y.edge.28"><path d="M140.0098 162.5 L140.0098 167.5 L217.5 167.5 L217.5 162.5 Z"/><path d="M140.0098 162.5 L140.0098 167.5 L217.5 167.5 L217.5 162.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.35"><path d="M259.9788 80 L235 80 L230.625 80.625 L227.5 82.5 L225.625 85.625 L225 90 L225 142.5"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.36"><path d="M190.0212 80 L215 80 L219.375 80.625 L222.5 82.5 L224.375 85.625 L225 90 L225 142.5"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.38"><path d="M140.0134 135 L190 135 L194.7751 135.4801 L199.1005 136.9206 L202.976 139.3212 L206.4018 142.6822 L218.9182 157.7019"/><path d="M222.7593 154.501 L215.0772 160.9028 Z"/><path d="M222.7593 154.501 L215.0772 160.9028 Z"/></g>
+    <g class="" irt:ref="BLOOD" id="y.node.13"><rect x="0" y="500" width="1180" rx="4" ry="4" height="210"/><text font-size="15px" x="1139.6357" y="517.0806">Blood</text></g>
+    <g class="" irt:ref="PLASMA" id="plasma.node"><text font-size="15px" x="560" y="120">Plasma</text></g>
+    <g class="irt-cells " irt:ref="Th2_bld" id="y.node.14"><rect x="360" y="575" width="100" rx="4" ry="4" height="60"/><rect x="360" y="575" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="387.5991" y="615.2134">Th2</text></g>
+    <g class="irt-cells " irt:ref="V59_bld_to_ts_th2" id="y.node.15"><circle r="7.5" cx="972.5" cy="557.5"/><circle r="7.5" cx="972.5" cy="557.5"/></g>
+    <g class="irt-cells " irt:ref="V58_apo_th2_bld" id="y.node.16"><circle r="7.5" cx="292.5" cy="627.5"/><circle r="7.5" cx="292.5" cy="627.5"/></g>
+    <g class="" irt:ref="V204_syn_il10_th2_bld" id="y.node.17"><circle r="7.5" cx="452.5" cy="582.5"/><circle r="7.5" cx="452.5" cy="582.5"/></g>
+    <g class="" irt:ref="V240_syn_il5_th2_bld" id="y.node.18"><circle r="7.5" cx="437.5" cy="582.5"/><circle r="7.5" cx="437.5" cy="582.5"/></g>
+    <g class="" irt:ref="V245_syn_il13_th2_bld" id="y.node.19"><circle r="7.5" cx="452.5" cy="597.5"/><circle r="7.5" cx="452.5" cy="597.5"/></g>
+    <g class="" irt:ref="V235_syn_il4_th2_bld" id="y.node.20"><circle r="7.5" cx="422.5" cy="582.5"/><circle r="7.5" cx="422.5" cy="582.5"/></g>
+    <g class="irt-cells " irt:ref="V57_ln_to_bld_th2" id="y.edge.0"><path d="M407.5 230 L407.5 559.9609 L402.5 556.9609 L410 574.9609 L417.5 556.9609 L412.5 559.9609 L412.5 230 Z"/><path d="M407.5 230 L407.5 559.9609 L402.5 556.9609 L410 574.9609 L417.5 556.9609 L412.5 559.9609 L412.5 230 Z"/></g>
+    <g class="irt-cells " irt:ref="V59_bld_to_ts_th2" id="y.edge.15"><path d="M970 565 L970 625 L460.0078 625 L460.0078 630 L975 630 L975 627.5 L975 565 Z"/><path d="M970 565 L970 625 L460.0078 625 L460.0078 630 L975 630 L975 627.5 L975 565 Z"/></g>
+    <g class="irt-cells " irt:ref="V58_apo_th2_bld" id="y.edge.1"><path d="M300 625 L300 630 L359.9609 630 L359.9609 625 Z"/><path d="M300 625 L300 630 L359.9609 630 L359.9609 625 Z"/></g>
+    <g class="" irt:ref="TISSUE" id="y.node.21"><rect x="680" y="0" width="500" rx="4" ry="4" height="330"/><text font-size="15px" x="1133.8203" y="17.0806">Tissue</text></g>
+    <g class="irt-cells " irt:ref="Th2_ts" id="y.node.22"><rect x="880" y="135" width="100" rx="4" ry="4" height="60"/><rect x="880" y="135" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="907.5991" y="175.2134">Th2</text></g>
+    <g class="irt-cells " irt:ref="V61_ts_to_ln_th2" id="y.node.23"><circle r="7.5" cx="852.5" cy="142.5"/><circle r="7.5" cx="852.5" cy="142.5"/></g>
+    <g class="irt-cells " irt:ref="V60_apo_th2_ts" id="y.node.24"><circle r="7.5" cx="1047.5" cy="142.5"/><circle r="7.5" cx="1047.5" cy="142.5"/></g>
+    <g class="" irt:ref="V213_syn_il10_th2_ts" id="y.node.25"><circle r="7.5" cx="887.5" cy="187.5"/><circle r="7.5" cx="887.5" cy="187.5"/></g>
+    <g class="" irt:ref="V247_syn_il13_th2_ts" id="y.node.26"><circle r="7.5" cx="887.5" cy="172.5"/><circle r="7.5" cx="887.5" cy="172.5"/></g>
+    <g class="" irt:ref="V242_syn_il5_th2_ts" id="y.node.27"><circle r="7.5" cx="902.5" cy="187.5"/><circle r="7.5" cx="902.5" cy="187.5"/></g>
+    <g class="" irt:ref="V237_syn_il4_th2_ts" id="y.node.28"><circle r="7.5" cx="917.5" cy="187.5"/><circle r="7.5" cx="917.5" cy="187.5"/></g>
+    <g class="" irt:ref="IL10" id="y.node.29"><rect x="595.3333" y="400" width="37" rx="4" ry="4" height="30"/><rect x="595.3333" y="400" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="600.1575" y="419.7139">IL-10</text></g>
+    <g class="" irt:ref="IL4" id="y.node.30"><rect x="500" y="400" width="37" rx="4" ry="4" height="30"/><rect x="500" y="400" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="508.1611" y="419.7139">IL-4</text></g>
+    <g class="" irt:ref="IL13" id="y.node.31"><rect x="643" y="400" width="37" rx="4" ry="4" height="30"/><rect x="643" y="400" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="647.8242" y="419.7139">IL-13</text></g>
+    <g class="" irt:ref="TGFb" id="y.node.32"><rect x="571.5" y="20" width="37" rx="4" ry="4" height="30"/><rect x="571.5" y="20" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="574.666" y="39.7139">TGFb</text></g>
+    <g class="hidden " irt:ref="CCL17" id="y.node.33"><rect x="909.5" y="400" width="55" rx="4" ry="4" height="30"/><rect x="909.5" y="400" width="55" rx="4" ry="4" height="30"/><text font-size="12px" x="918.3232" y="419.7139">CCL17</text></g>
+    <g class="hidden " irt:ref="CCL22" id="y.node.34"><rect x="980" y="400" width="55" rx="4" ry="4" height="30"/><rect x="980" y="400" width="55" rx="4" ry="4" height="30"/><text font-size="12px" x="988.8232" y="419.7139">CCL22</text></g>
+    <g class="hidden " irt:ref="CCL24" id="y.node.35"><rect x="1040" y="400" width="55" rx="4" ry="4" height="30"/><rect x="1040" y="400" width="55" rx="4" ry="4" height="30"/><text font-size="12px" x="1048.8232" y="419.7139">CCL24</text></g>
+    <g class="hidden " irt:ref="CCL11" id="y.node.36"><rect x="849.5" y="400" width="55" rx="4" ry="4" height="30"/><rect x="849.5" y="400" width="55" rx="4" ry="4" height="30"/><text font-size="12px" x="858.3232" y="419.7139">CCL11</text></g>
+    <g class="hidden " irt:ref="CCL1" id="y.node.37"><rect x="789.5" y="400" width="55" rx="4" ry="4" height="30"/><rect x="789.5" y="400" width="55" rx="4" ry="4" height="30"/><text font-size="12px" x="801.6602" y="419.7139">CCL1</text></g>
+    <g class="" irt:ref="IL5" id="y.node.38"><rect x="547.6667" y="400" width="37" rx="4" ry="4" height="30"/><rect x="547.6667" y="400" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="555.8278" y="419.7139">IL-5</text></g>
+    <g class="" irt:ref="IL2" id="y.node.39"><rect x="571.5" y="60" width="37" rx="4" ry="4" height="30"/><rect x="571.5" y="60" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="579.6611" y="79.7139">IL-2</text></g>
+    <g class="irt-cells " irt:ref="mDC1a_ln" id="y.node.40"><rect x="90" y="250" width="100" rx="4" ry="4" height="60"/><rect x="90" y="250" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="95.9346" y="290.2134">mDC1a</text></g>
+    <g class="irt-cells " irt:ref="Ba_ln" id="y.node.41"><rect x="260" y="250" width="100" rx="4" ry="4" height="60"/><rect x="260" y="250" width="100" rx="4" ry="4" height="60"/><text font-size="26px" x="294.0991" y="290.2134">Ba</text></g>
+    <g class="" irt:ref="CD8086_cd4" id="y.node.42"><rect x="323" y="65" width="37" rx="4" ry="4" height="30"/><rect x="323" y="65" width="37" rx="4" ry="4" height="30"/><text font-size="10px" x="321.7661" y="83.9282">CD80/86</text></g>
+    <g class="" irt:ref="CD8086_cd4" id="y.node.45"><rect x="90" y="65" width="37" rx="4" ry="4" height="30"/><rect x="90" y="65" width="37" rx="4" ry="4" height="30"/><text font-size="10px" x="88.7661" y="83.9282">CD80/86</text></g>
+    <g class="" irt:ref="CD8086_cd4" id="y.node.47"><rect x="323" y="235" width="37" rx="4" ry="4" height="30"/><rect x="323" y="235" width="37" rx="4" ry="4" height="30"/><text font-size="10px" x="321.7661" y="253.9282">CD80/86</text></g>
+    <g class="" irt:ref="MHC2" id="y.node.48"><rect x="260" y="235" width="37" rx="4" ry="4" height="30"/><rect x="260" y="235" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="261.502" y="254.7139">MHCII</text></g>
+    <g class="" irt:ref="MHC2" id="y.node.49"><rect x="153" y="235" width="37" rx="4" ry="4" height="30"/><rect x="153" y="235" width="37" rx="4" ry="4" height="30"/><text font-size="12px" x="154.502" y="254.7139">MHCII</text></g>
+    <g class="" irt:ref="CD8086_cd4" id="y.node.50"><rect x="90" y="235" width="37" rx="4" ry="4" height="30"/><rect x="90" y="235" width="37" rx="4" ry="4" height="30"/><text font-size="10px" x="88.7661" y="253.9282">CD80/86</text></g>
+    <g class="irt-cells " irt:ref="V59_bld_to_ts_th2" id="y.edge.3"><path d="M972.5 195.0078 L965 213.0078 L970 210.0078 L970 550 L975 550 L975 210.0078 L980 213.0078 L972.5 195.0078 Z"/><path d="M972.5 195.0078 L965 213.0078 L970 210.0078 L970 550 L975 550 L975 210.0078 L980 213.0078 L972.5 195.0078 Z"/></g>
+    <g class="irt-cells " irt:ref="V61_ts_to_ln_th2" id="y.edge.4"><path d="M860 140 L860 145 L879.9609 145 L879.9609 140 Z"/><path d="M860 140 L860 145 L879.9609 145 L879.9609 140 Z"/></g>
+    <g class="irt-cells " irt:ref="V61_ts_to_ln_th2" id="y.edge.5"><path d="M478.0234 135 L460.0234 142.5 L478.0234 150 L475.0234 145 L845 145 L845 140 L475.0234 140 L478.0234 135 Z"/><path d="M478.0234 135 L460.0234 142.5 L478.0234 150 L475.0234 145 L845 145 L845 140 L475.0234 140 L478.0234 135 Z"/></g>
+    <g class="irt-cells " irt:ref="V60_apo_th2_ts" id="y.edge.6"><path d="M980.0078 140 L980.0078 145 L1040 145 L1040 140 Z"/><path d="M980.0078 140 L980.0078 145 L1040 145 L1040 140 Z"/></g>
+    <g class="" irt:ref="V208_syn_il10_th2_ln" id="y.edge.2"><path d="M613.8333 391.9759 L613.8333 197.5 L613.2083 193.125 L611.3333 190 L608.2083 188.125 L603.8333 187.5 L460 187.5"/><path d="M613.8333 399.9759 L618.8333 387.9759 L613.8333 390.9759 L608.8333 387.9759 Z"/></g>
+    <g class="" irt:ref="V213_syn_il10_th2_ts" id="y.edge.10"><path d="M613.8333 391.9759 L613.8333 197.5 L614.4583 193.125 L616.3333 190 L619.4583 188.125 L623.8333 187.5 L880 187.5"/><path d="M613.8333 399.9759 L618.8333 387.9759 L613.8333 390.9759 L608.8333 387.9759 Z"/></g>
+    <g class="" irt:ref="V204_syn_il10_th2_bld" id="y.edge.13"><path d="M613.8333 438.0079 L613.8333 572.5 L613.2083 576.875 L611.3333 580 L608.2083 581.875 L603.8333 582.5 L460 582.5"/><path d="M613.8333 430.0079 L608.8333 442.0079 L613.8333 439.0079 L618.8333 442.0079 Z"/></g>
+    <g class="" irt:ref="V236_syn_il4_th2_ln" id="y.edge.8"><path d="M518.5 392.0043 L518.5 227.5 L517.875 223.125 L516 220 L512.875 218.125 L508.5 217.5 L432.5 217.5 L428.125 216.875 L425 215 L423.125 211.875 L422.5 207.5 L422.5 195"/><path d="M518.5 400.0043 L523.5 388.0043 L518.5 391.0043 L513.5 388.0043 Z"/></g>
+    <g class="" irt:ref="V237_syn_il4_th2_ts" id="y.edge.11"><path d="M518.5 392.0043 L518.5 227.5 L519.125 223.125 L521 220 L524.125 218.125 L528.5 217.5 L907.5 217.5 L911.875 216.875 L915 215 L916.875 211.875 L917.5 207.5 L917.5 195"/><path d="M518.5 400.0043 L523.5 388.0043 L518.5 391.0043 L513.5 388.0043 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.16"><path d="M499.9771 415 L235 415 L230.625 414.375 L227.5 412.5 L225.625 409.375 L225 405 L225 187.5"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/></g>
+    <g class="" irt:ref="V235_syn_il4_th2_bld" id="y.edge.24"><path d="M518.5 438.0055 L518.5 542.5 L517.875 546.875 L516 550 L512.875 551.875 L508.5 552.5 L432.5 552.5 L428.125 553.125 L425 555 L423.125 558.125 L422.5 562.5 L422.5 575"/><path d="M518.5 430.0055 L513.5 442.0055 L518.5 439.0055 L523.5 442.0055 Z"/></g>
+    <g class="" irt:ref="V246_syn_il13_th2_ln" id="y.edge.7"><path d="M661.5 391.9918 L661.5 182.5 L660.875 178.125 L659 175 L655.875 173.125 L651.5 172.5 L460 172.5"/><path d="M661.5 399.9918 L666.5 387.9918 L661.5 390.9918 L656.5 387.9918 Z"/></g>
+    <g class="" irt:ref="V247_syn_il13_th2_ts" id="y.edge.9"><path d="M661.5 391.9918 L661.5 182.5 L662.125 178.125 L664 175 L667.125 173.125 L671.5 172.5 L880 172.5"/><path d="M661.5 399.9918 L666.5 387.9918 L661.5 390.9918 L656.5 387.9918 Z"/></g>
+    <g class="" irt:ref="V245_syn_il13_th2_bld" id="y.edge.14"><path d="M661.5 438.0153 L661.5 587.5 L660.875 591.875 L659 595 L655.875 596.875 L651.5 597.5 L460 597.5"/><path d="M661.5 430.0153 L656.5 442.0153 L661.5 439.0153 L666.5 442.0153 Z"/></g>
+    <g class="irt-regulation" irt:ref="V56_pro_th2_ln" id="y.edge.17"><path d="M571.499 35 L420 35 L415.625 35.625 L412.5 37.5 L410.625 40.625 L410 45 L410 93"/><path d="M415 93 L405 93 Z"/><path d="M415 93 L405 93 Z"/></g>
+    <g class="hidden irt-regulation" irt:ref="V59_bld_to_ts_th2" id="y.edge.22"><path d="M937 429.9829 L937 500 L938.4966 509.5025 L942.9865 518.0101 L959.0304 539.4772"/><path d="M968.0101 551.4924 L963.2379 535.0844 L953.6257 542.2681 Z"/><path d="M968.0101 551.4924 L963.2379 535.0844 L953.6257 542.2681 Z"/></g>
+    <g class="hidden irt-regulation" irt:ref="V59_bld_to_ts_th2" id="y.edge.19"><path d="M1007.5 429.9829 L1007.5 500 L1006.017 509.5126 L1001.568 518.0505 L985.847 539.3862"/><path d="M976.949 551.462 L991.2705 542.1403 L981.6098 535.022 Z"/><path d="M976.949 551.462 L991.2705 542.1403 L981.6098 535.022 Z"/></g>
+    <g class="hidden irt-regulation" irt:ref="V59_bld_to_ts_th2" id="y.edge.18"><path d="M1067.5 429.9945 L1067.5 547.5 L1066.875 551.875 L1065 555 L1061.875 556.875 L1057.5 557.5 L995 557.5"/><path d="M980 557.5 L996 563.5 L996 551.5 Z"/><path d="M980 557.5 L996 563.5 L996 551.5 Z"/></g>
+    <g class="hidden irt-regulation" irt:ref="V59_bld_to_ts_th2" id="y.edge.21"><path d="M877 429.9829 L877 500 L877.5596 504.6533 L879.2384 508.6133 L882.0364 511.88 L885.9536 514.4534 L952.3543 547.4799"/><path d="M965.7848 554.16 L954.131 541.6624 L948.787 552.4068 Z"/><path d="M965.7848 554.16 L954.131 541.6624 L948.787 552.4068 Z"/></g>
+    <g class="hidden irt-regulation" irt:ref="V59_bld_to_ts_th2" id="y.edge.20"><path d="M817 429.9945 L817 547.5 L817.625 551.875 L819.5 555 L822.625 556.875 L827 557.5 L950 557.5"/><path d="M965 557.5 L949 551.5 L949 563.5 Z"/><path d="M965 557.5 L949 551.5 L949 563.5 Z"/></g>
+    <g class="" irt:ref="V240_syn_il5_th2_bld" id="y.edge.12"><path d="M566.1667 438.0043 L566.1667 557.5 L565.5417 561.875 L563.6667 565 L560.5417 566.875 L556.1667 567.5 L447.5 567.5 L440 568.4375 L438.125 569.6094 L437.5 571.25 L437.5 575"/><path d="M566.1667 430.0043 L561.1667 442.0043 L566.1667 439.0043 L571.1667 442.0043 Z"/></g>
+    <g class="" irt:ref="V241_syn_il5_th2_ln" id="y.edge.25"><path d="M566.1667 391.9808 L566.1667 212.5 L565.5417 208.125 L563.6667 205 L560.5417 203.125 L556.1667 202.5 L447.5 202.5 L440 201.5625 L438.125 200.3906 L437.5 198.75 L437.5 195"/><path d="M566.1667 399.9808 L571.1667 387.9808 L566.1667 390.9808 L561.1667 387.9808 Z"/></g>
+    <g class="" irt:ref="V242_syn_il5_th2_ts" id="y.edge.26"><path d="M566.1667 391.9808 L566.1667 212.5 L566.7917 208.125 L568.6667 205 L571.7917 203.125 L576.1667 202.5 L892.5 202.5 L900 201.5625 L901.875 200.3906 L902.5 198.75 L902.5 195"/><path d="M566.1667 399.9808 L571.1667 387.9808 L566.1667 390.9808 L561.1667 387.9808 Z"/></g>
+    <g class="irt-regulation" irt:ref="V56_pro_th2_ln" id="y.edge.23"><path d="M571.5088 75 L460 75 L450.4399 76.4163 L441.7596 80.6653 L428.541 89.7531"/><path d="M416.1803 98.251 L432.7642 94.1308 L425.9658 84.2423 Z"/><path d="M416.1803 98.251 L432.7642 94.1308 L425.9658 84.2423 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.34"><path d="M341.5 94.9707 L341.5 102.4854 L340.875 105.773 L339 108.1213 L335.875 109.5303 L331.5 110 L235 110 L230.625 110.625 L227.5 112.5 L225.625 115.625 L225 120 L225 142.5"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.37"><path d="M108.5 94.9707 L108.5 102.4854 L109.125 105.773 L111 108.1213 L114.125 109.5303 L118.5 110 L215 110 L219.375 110.625 L222.5 112.5 L224.375 115.625 L225 120 L225 142.5"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/><path d="M225 157.5 L231 141.5 L219 141.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.42"><path d="M341.5 234.9707 L341.5 227.4854 L340.875 224.2105 L339 221.8713 L335.875 220.4678 L331.5 220 L235 220 L230.625 219.375 L227.5 217.5 L225.625 214.375 L225 210 L225 187.5"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.39"><path d="M259.9788 250 L235 250 L230.625 249.375 L227.5 247.5 L225.625 244.375 L225 240 L225 187.5"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.40"><path d="M190.0212 250 L215 250 L219.375 249.375 L222.5 247.5 L224.375 244.375 L225 240 L225 187.5"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/></g>
+    <g class="irt-regulation" irt:ref="V54_th0_to_th2_ln" id="y.edge.41"><path d="M108.5 234.9707 L108.5 227.4854 L109.125 224.2105 L111 221.8713 L114.125 220.4678 L118.5 220 L215 220 L219.375 219.375 L222.5 217.5 L224.375 214.375 L225 210 L225 187.5"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/><path d="M225 172.5 L219 188.5 L231 188.5 Z"/></g>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </g></svg>
