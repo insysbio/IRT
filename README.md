@@ -1,7 +1,5 @@
 **TEST VERSION**
 
-_email subscription_
-
 ## Immune Response Template
 
 IRT is a project aimed to collect, analyze and visualize available data on immune cells, cytokine, chemokines and other mediators interactions in humans. The unique feature of the project is its focus on quantitative systems pharmacology (QSP) modeling. The goal of the project is a tool for investigation of immune system and its multiple interactions, and for development of QSP models/platforms related to immune in human.
@@ -55,13 +53,17 @@ The database is distributed under two revisions: (1) demo version is available [
   <li><a href="mailto:?subject=Immune%20Response%20Template&body=annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans:%20http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email"><img alt="Send email" src="images/social_flat_rounded_rects_svg/Email.svg"></a></li>
 </ul>
 
+## Be in touch
+
+_<a href="http://eepurl.com/b8w-v5" target="_blank">Subscribe for project updates</a>_
+
 ## Learn more
 
 * [IRT main features booklet](doc/IRT 1.0 2016 booklet A5 online.pdf)
 
 * [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
-* _look at video_
+* _tutotial will be later_
 
 ## Team
 
