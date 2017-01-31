@@ -17,24 +17,24 @@ IRT database includes:
 * values of parameters of the rate equations identified via fitting of the specific "in vitro" models against _in vitro_ data or calculated using _in vivo_ data measured for **healthy human**;
 * extended annotation of rate equations and parameters.
 
+**immune cell passport**
+![immune cell passport](images/cell passport.png)
+
+**cytokines sources profile**
+![cytokines sources profile](images/cytokine profile.png)
+
 The database is distributed under two revisions:
 
-<table style="width:100%;text-align: center;font-weight: bold;">
+<table style="width:100%;text-align: center;font-weight: bold;border-width:0px;">
 <tr>
-<td>The demo version is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
-<td>The full version is can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
+<td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
+<td style="border-width:0px;width:50%;">The full version is can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
 </tr>
 <tr>
 <td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
 <td style="border-width:0px;width:50%;"><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
 </tr>
 </table>
-
-**immune cell passport**
-![immune cell passport](images/cell passport.png)
-
-**cytokines sources profile**
-![cytokines sources profile](images/cytokine profile.png)
 
 ## IRT navigator
 
