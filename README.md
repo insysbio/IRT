@@ -22,7 +22,7 @@ The database is distributed under two revisions:
 <table class="versions-buttons">
 <tr>
 <td>The demo version is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
-<td>The full version is can be obtained under commercial license after request to **irt@insysbio.ru**<br/> irt@insysbio.ru</td>
+<td>The full version is can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
 </tr>
 <tr>
 <td><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
@@ -65,7 +65,7 @@ The database is distributed under two revisions:
 
 ## Be in touch
 
-<a href="http://eepurl.com/b8w-v5" target="_blank"><img alt="Subscribe for project updates" src="images/1/subscribe_button.svg" style="width:50%;"></a>
+<a href="http://eepurl.com/b8w-v5" target="_blank"><img alt="Subscribe for project updates" src="images/1/subscribe_button.svg" style="width:33%;"></a>
 
 ## Learn more
 
