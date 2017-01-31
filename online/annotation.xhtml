@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
-This file is a part of IRT navigator 1.0
+This file is a part of IRT navigator
 Author: Evgeny Metelkin
 
 This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
@@ -11,7 +10,8 @@ License http://creativecommons.org/licenses/by-nd/4.0/
 © Institute for Systems Biology, Moscow, 2016-2017
 http://insysbio.ru
 -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="overflow-x: auto;">
   <head>
     <title>Info frame</title>
     
@@ -20,8 +20,18 @@ http://insysbio.ru
     <link rel="stylesheet" href="./style/w3.css"/>
     <link rel="stylesheet" type="text/css" href="./style/style.css"/>
     <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css"/>
-    
-    <script type="text/javascript" async="true" src="./MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+      jax: ["input/TeX","input/MathML","output/HTML-CSS"],
+      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js", "MathML/mml3.js", "MathML/content-mathml.js"],
+      TeX: {
+        extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+      },
+      "HTML-CSS": { linebreaks: { automatic: true } },
+      menuSettings: { zoom: "None", zscale: "200%" }
+     });
+    </script>
+    <script type="text/javascript" async="true" src="./MathJax/MathJax.js"></script>
     
   </head>
   <body class="w3-container" >    

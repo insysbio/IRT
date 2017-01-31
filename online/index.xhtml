@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
-This file is a part of IRT navigator 1.0
+This file is a part of IRT navigator
 Author: Evgeny Metelkin
 
 This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
@@ -11,22 +10,17 @@ License http://creativecommons.org/licenses/by-nd/4.0/
 © Institute for Systems Biology, Moscow, 2016-2017
 http://insysbio.ru
 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
   <head>
     <title>IRT navigator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <script type="text/javascript" src="./options.js"> </script>
-    <script type="text/javascript" src="./js/irt-scripts-min.js"> </script>
-    
-    <script type="text/javascript" async="true" src="./MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
     <link rel="stylesheet" href="./style/w3.css"/>
     <link rel="stylesheet" type="text/css" href="./style/style.css"/>
     <link rel="stylesheet" type="text/css" href="./style/filter.css"/>
     <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css"/>
 
-     <!--<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>--> 
     
   </head>
   <body class="w3-row" style="height:100%;">
@@ -61,14 +55,13 @@ http://insysbio.ru
     <div class="w3-col w3-border-right w3-border-blue sectionNav" style="width:250px; height:100%; display:none; overflow:auto;">
       <ul id="schemesUl" class="w3-ul w3-hoverable my-no-decoration"/>
     </div>
-    
+
     <div id="pagesDiv" class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;">
       <h1>Pages should be attached here</h1>
     </div>
     <div id="schemesDiv" class="w3-rest irt-section" style="height:100%; display:none; padding:10px;">
       <h1>Schemes should be attached here</h1>
     </div>
-    
     
     <div id="searchDiv" class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;"/>
     
@@ -77,7 +70,7 @@ http://insysbio.ru
       <h1>Tools for selected elements</h1>
       
       <div class="w3-container w3-row">
-      <div class="w3-quarter">
+      <div class="w3-quarter" style="min-width:320px;">
       
       <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>Statistics</h3></div>
@@ -100,7 +93,7 @@ http://insysbio.ru
       </div>
       </div>
       
-      <div class="w3-quarter">
+      <div class="w3-quarter" style="min-width:320px;">
         
       <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>Save template</h3></div>
@@ -151,6 +144,7 @@ http://insysbio.ru
    </div>
    
    <div id="tip"> Hello!</div>
+   
     
    <div id="modalWindow" class="w3-modal">
      <div class="w3-modal-content w3-container w3-center">
@@ -159,6 +153,64 @@ http://insysbio.ru
        <p class="loader"/>
      </div>
    </div>
-
+   
+    <!-- BEGIN welcome window -->
+    <div id="welcomeModal" class="w3-modal" style="display:block;">
+      <div class="w3-modal-content w3-container  w3-card-8">
+        <h1 class="w3-center">IRT navigator environment checking...</h1>
+        <p>To start <strong>Immune Response Template navigator</strong> check the following settings:
+          <ul id="checking">
+            <li class="check-false">JavaScript should be active on page.
+              <ul>
+              <li>Check setting of your browser to turn on JavaScript on the page.</li>
+              </ul>
+            </li>
+            <li class="check-insensible">Proper browser.
+              <ul>
+              <li>The current version of IRT navigator requires Google Chrome installed. Install <a href="https://www.google.com/chrome/browser/desktop/index.html">the latest version</a>.</li>
+              </ul>
+            </li>
+            <li class="check-insensible">High screen resolution.
+              <ul>
+              <li>You need the resolution not lower than 1024x768.</li>
+              <li>Portable divices are not supported.</li>
+              </ul>
+            </li>
+            <li class="check-insensible">The pop-up windows should be allowed for this page.
+              <ul>
+              <li>Please, select "Always allow pop-ups from..." in the top-right corner <img src="style/popup.png" height="30px"/> and reset the page (F5).</li>
+              <li>Alternatively you can use "--disable-popup-blocking" flag when starting Chrome.</li>
+              </ul>
+            </li>
+            <li class="check-insensible">Availability of IRT database.
+              <ul>
+              <li>When starting IRT navigator locally the option "--allow-file-access-from-files" should be used.</li>
+              <li>Check available IRT database path and "options.json"</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p>Go to project page <a href="http://irt.insysbio.ru">http://irt.insysbio.ru</a></p>
+     </div>
+   </div>
+   <!-- END welcome window -->
+   
+   <!-- BEGIN JS loading -->
+    <script type="text/javascript" src="./options.json"> </script>
+    <script type="text/javascript" src="./js/irt-scripts-min.js"> </script>
+    
+    <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+      jax: ["input/TeX","input/MathML","output/HTML-CSS"],
+      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js", "MathML/mml3.js", "MathML/content-mathml.js"],
+      TeX: {
+        extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+      },
+      "HTML-CSS": { linebreaks: { automatic: true } },
+      menuSettings: { zoom: "None", zscale: "200%" }
+     });
+    </script>
+    <script type="text/javascript" async="true" src="./MathJax/MathJax.js"></script>
+   <!-- END JS loading -->
   </body>
 </html>

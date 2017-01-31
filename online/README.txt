@@ -11,7 +11,7 @@ About IRT
   IRT team makes an effort in two direction: the development of database on human immune cells  interaction (IRT database) and the development of tools for navigation and model creation (IRT navigator).
 
 About the package
-  This package includes "IRT navigator 1.1", "IRT database 1.0 demo" and a list of third-party software components. It is distributed for demonstration purposes and includes only small part of "IRT database 1.0". 
+  This package includes "IRT navigator 1.1", "IRT database 1.0 demo" and a list of third-party software components. It is distributed for demonstration purposes and includes only small part of "IRT database 1.0" which is available under commercial license. 
 
 How to get the full version
   The full version of "IRT database 1.0" is distributed under the commercial license. If you are interested in purchasing the full version please contact the maintainers irt@insysbio.ru. The order form and license agreement for the full version can be downloaded from the http://irt.insysbio.ru/irt_1.0_order_form_and_license_agreement.pdf
@@ -23,14 +23,15 @@ II. REQUIREMENTS
 
 III. INSTALLATION AND CONFIGURATION
 -----------------------------------
-To run IRT navigator:
+To run IRT navigator (Chrome application mode):
 1. Install Google Chrome (if it has not been installed on your PC).
 2. Double click one of starting files (alternatively):
   * STARTME.WIN.bat on MS Windows
   * STARTME.LINUX.sh on *NIX family systems
   * STARTME.OSX.command on macOS
+3. Use IRT navigator in created window.
 
-Alternative start:
+Alternative start (Web page mode):
 1. Install Google Chrome (if it has not been installed on your PC).
 2. Close all Google Chrome pages (if it is opened on your PC).
 3. Start chrome.exe from command promt with specific keys: "--allow-file-access-from-files --disable-popup-blocking".
@@ -47,7 +48,7 @@ http://irt.insysbio.ru/
 irt@insysbio.ru
 
 VI. MAINTAINERS
---------------
+---------------
   - Oleg Demin Jr. (idea, modeling, coordination)
   - Evgeny Metelkin (database schema, scripting, design)
   - Antonina Nikitich (analytics, modeling, literature review)

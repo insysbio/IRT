@@ -1,3 +1,4 @@
+
 /* === HTML elements decoration === */
 .irt-species, .irt-reaction, .irt-compartment {
   cursor: pointer;
@@ -306,4 +307,46 @@ td.second {
 td.third {
   vertical-align: top;
   text-align: left;
+}
+
+/* modal window */
+ul#checking{
+        list-style-type:none;
+        /*padding:0;
+        margin:0*/
+}
+      
+li.check-false{
+    color: red;
+}
+      
+li.check-false::before{
+    content: "\f00d\00A0";
+    font-family: FontAwesome;
+}
+      
+li.check-true{
+    color: green;
+}
+      
+li.check-true::before{
+    content: "\f00c\00A0";
+    font-family: FontAwesome;
+}
+      
+li.check-true *{
+    display: none;
+}
+      
+li.check-insensible{
+    color: grey;
+}
+      
+li.check-insensible::before{
+    content: "f128\00A0";
+    font-family: FontAwesome;
+}
+      
+li.check-insensible *{
+    display: none;
 }
