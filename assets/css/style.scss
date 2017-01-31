@@ -61,11 +61,12 @@ ul.share-buttons img{
 /* tables */
 table.version-buttons{
   width:100%;
+  border-width: 0px;
   text-align: center;
   font-weight: bold;
 }
 
-table.version-buttons tr td{
-  border: 0px;
+table.version-buttons > td{
+  border-width: 0px;
   width:50%;
 }
