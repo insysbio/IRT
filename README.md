@@ -20,7 +20,7 @@ IRT database includes:
 
 The database is distributed under two revisions: (1) demo version is available [online](online) for free under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/legalcode) lisence. (2) the full version is can be obtained under commercial license after request to **irt@insysbio.ru**
 
-<table class="share-buttons">
+<table class="versions-buttons">
 <tr>
 <td>text for first option</td>
 <td>text for second option</td>
