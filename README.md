@@ -20,8 +20,16 @@ IRT database includes:
 
 The database is distributed under two revisions: (1) demo version is available [online](online) for free under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/legalcode) lisence. (2) the full version is can be obtained under commercial license after request to **irt@insysbio.ru**
 
-<a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a>
-<a href="mailto:irt@insysbio.ru?subject=Request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/email_us.svg"></a>
+<table class="share-buttons">
+<tr>
+<td>text for first option</td>
+<td>text for second option</td>
+</tr>
+<tr>
+<td><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
+<td><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
+</tr>
+</table>
 
 **immune cell passport**
 ![immune cell passport](images/cell passport.png)
