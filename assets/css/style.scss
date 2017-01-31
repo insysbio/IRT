@@ -6,11 +6,11 @@
 img {
   max-width: 100%;
 }
-
+/*
 #project_tagline{
   font-size: 28px;
 }
-
+*/
 #online_banner {
   display: block;
   position: absolute;
@@ -56,4 +56,16 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img{
   width: 32px;
+}
+
+/* tables */
+table#version-buttons{
+  width:100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+table#version-buttons tr td{
+  border: 0px;
+  width:50%;
 }

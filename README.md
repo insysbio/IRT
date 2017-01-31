@@ -23,7 +23,7 @@ The database is distributed under two revisions: (1) demo version is available [
 <table class="versions-buttons">
 <tr>
 <td>text for first option</td>
-<td>text for second option</td>
+<td>text for second option <br/> irt@insysbio.ru</td>
 </tr>
 <tr>
 <td><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
@@ -66,7 +66,7 @@ The database is distributed under two revisions: (1) demo version is available [
 
 ## Be in touch
 
-_<a href="http://eepurl.com/b8w-v5" target="_blank">Subscribe for project updates</a>_
+<a href="http://eepurl.com/b8w-v5" target="_blank"><img alt="Subscribe for project updates" src="images/1/demo_button.svg"></a>
 
 ## Learn more
 
