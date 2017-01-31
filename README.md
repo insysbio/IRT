@@ -28,7 +28,7 @@ The database is distributed under two revisions:
 <table style="width:100%;text-align: center;font-weight: bold;border-width:0px;">
 <tr>
 <td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
-<td style="border-width:0px;width:50%;">The full version is can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
+<td style="border-width:0px;width:50%;">The full version can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
 </tr>
 <tr>
 <td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
