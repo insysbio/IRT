@@ -19,7 +19,8 @@ img {
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/logo_irt_30x30.png') #634c7b no-repeat 95% 50%;
+  /*background: url('../images/logo_irt_30x30.png') #634c7b no-repeat 95% 50%;*/
+  background: url('../images/logo_irt_30x30.png') #4b9668 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -56,17 +57,4 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img{
   width: 32px;
-}
-
-/* tables */
-table.version-buttons{
-  width:100%;
-  border-width: 0px;
-  text-align: center;
-  font-weight: bold;
-}
-
-td{
-  border-width: 0px;
-  width:50%;
 }

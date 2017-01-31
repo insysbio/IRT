@@ -19,14 +19,14 @@ IRT database includes:
 
 The database is distributed under two revisions:
 
-<table class="versions-buttons">
+<table style="width:100%;text-align: center;font-weight: bold;">
 <tr>
 <td>The demo version is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
 <td>The full version is can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
 </tr>
 <tr>
-<td><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
-<td><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
+<td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
+<td style="border-width:0px;width:50%;"><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
 </tr>
 </table>
 
