@@ -61,7 +61,9 @@ The database is distributed under two revisions:
 
 <ul class="share-buttons">
   <li>
-    <img id="shareBtn" alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg">
+    <a id="shareBtn" title="Share on Facebook">
+      <img alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg">
+    </a>
   </li>
   <li>
     <a href="https://twitter.com/intent/tweet?
