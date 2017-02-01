@@ -61,7 +61,7 @@ The database is distributed under two revisions:
 
 <ul class="share-buttons">
   <li>
-    <a id="shareBtn" title="Share on Facebook">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Firt.insysbio.ru&t=Immune%20Response%20Template" title="Share on Facebook" target="_blank">
       <img alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg">
     </a>
   </li>
@@ -100,16 +100,6 @@ http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
     </a>
   </li>
 </ul>
-
-<script>
-document.getElementById('shareBtn').onclick = function() {
-  FB.ui({
-    method: 'share',
-    display: 'popup',
-    href: 'https://developers.facebook.com/docs/',
-  }, function(response){});
-}
-</script>
 
 ## Be in touch
 
