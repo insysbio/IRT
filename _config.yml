@@ -6,7 +6,7 @@ gems:
 title: "Immune Response Template"
 description: "Annotation and numerical description of immune response in humans"
 image: /images/general view.png
-logo: /images/logo isb.png
+logo: /images/logo_isb.png
 show_downloads: false
 demo_path: online
 google_analytics: UA-86578005-2
@@ -14,8 +14,8 @@ yandex_metrika: 38306160
 twitter:
   username: insysbio
 facebook:
-  publisher: insysbio
-  admins: evgeny.metelkin
+  publisher: 666514300197789
+  admins: 100008232034270
 social:
   name: InSysBio
   links:
@@ -24,3 +24,4 @@ social:
     - https://github.com/insysbio
     - https://twitter.com/insysbio
     - https://insysbio.ru/en
+    
