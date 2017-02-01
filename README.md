@@ -27,12 +27,12 @@ The database is distributed under two revisions:
 
 <table style="width:100%;text-align: center;font-weight: bold;border-width:0px;">
 <tr>
-<td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
-<td style="border-width:0px;width:50%;">The full version can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
-</tr>
-<tr>
 <td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
 <td style="border-width:0px;width:50%;"><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
+</tr>
+<tr>
+<td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
+<td style="border-width:0px;width:50%;">The full version can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
 </tr>
 </table>
 
@@ -73,14 +73,14 @@ The database is distributed under two revisions:
 
 * [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
-* tutotials: _will be later_
+* tutotials: _coming soon_
 
 ## Team
 
-- [Oleg Demin Jr.](https://www.linkedin.com/in/demin-jr): idea, modeling, coordination
+- [Oleg Demin Jr.](https://www.linkedin.com/in/demin-jr "LinkedIn profile"): idea, modeling, coordination
 
 - **Antonina Nikitich:** analytics, modeling, literature search
 
 - @metelkin: database schema, scripting, "design"
 
-- Other [ISBM](http://insysbio.ru/en) folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
+- Other [ISBM](http://insysbio.ru/en "ISB home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
