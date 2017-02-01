@@ -1,8 +1,9 @@
 # allow all
 User-agent: *
 Allow: /
-Disallow: /*.php
-Disallow: /*.js
-Disallow: /*.htaccess
+Disallow: /_layouts/
+Disallow: /assets/
+Disallow: /_config.yml
+Disallow: /CNAME
 Disallow: /doc/*agreement.pdf$
 Host: irt.insysbio.ru
