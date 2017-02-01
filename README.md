@@ -92,7 +92,8 @@ The database is distributed under two revisions:
     </a>
   </li>
   <li>
-    <a href="mailto:?subject=Re%3A%20Immune%20Response%20Template&body=For%20your%20attention%20IRT: annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans %20http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
+    <a href="mailto:?subject=Re%3A%20Immune%20Response%20Template&body=For%20your%20attention
+    Immune Response Template: annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans %20http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
       <img alt="Send email" src="images/social_flat_rounded_rects_svg/Email.svg">
     </a>
   </li>
