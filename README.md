@@ -28,7 +28,11 @@ The database is distributed under two revisions:
 <table style="width:100%;text-align: center;font-weight: bold;border-width:0px;">
 <tr>
 <td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
-<td style="border-width:0px;width:50%;"><a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template"><img alt="request for full version" src="images/1/full_button.svg"></a></td>
+<td style="border-width:0px;width:50%;">
+  <a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template full version">
+    <img alt="request for full version" src="images/1/full_button.svg">
+  </a>
+</td>
 </tr>
 <tr>
 <td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
@@ -93,7 +97,8 @@ The database is distributed under two revisions:
   </li>
   <li>
     <a href="mailto:?subject=Re%3A%20Immune%20Response%20Template&body=For%20your%20attention
-    Immune Response Template: annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans %20http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
+Immune Response Template: annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans
+http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
       <img alt="Send email" src="images/social_flat_rounded_rects_svg/Email.svg">
     </a>
   </li>
