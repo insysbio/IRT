@@ -66,29 +66,17 @@ The database is distributed under two revisions:
     </a>
   </li>
   <li>
-    <a href="https://twitter.com/intent/tweet?
-      source=http%3A%2F%2Firt.insysbio.ru&
-      text=Immune%20Response%20Template:%20http%3A%2F%2Firt.insysbio.ru&
-      via=insysbio
-      " target="_blank" title="Tweet">
+    <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Firt.insysbio.ru&text=Immune%20Response%20Template:%20http%3A%2F%2Firt.insysbio.ru&via=insysbio" target="_blank" title="Tweet">
       <img alt="Tweet" src="images/social_flat_rounded_rects_svg/Twitter.svg">
     </a>
   </li>
   <li>
-    <a href="https://plus.google.com/share?
-      url=http%3A%2F%2Firt.insysbio.ru
-      " target="_blank" title="Share on Google+">
+    <a href="https://plus.google.com/share?url=http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Share on Google+">
       <img alt="Share on Google+" src="images/social_flat_rounded_rects_svg/Google+.svg">
     </a>
   </li>
   <li>
-    <a href="http://www.linkedin.com/shareArticle?
-      mini=true&
-      url=http%3A%2F%2Firt.insysbio.ru&
-      title=Immune%20Response%20Template&
-      summary=annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans&
-      source=http%3A%2F%2Firt.insysbio.ru
-      " target="_blank" title="Share on LinkedIn">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Firt.insysbio.ru&title=Immune%20Response%20Template&summary=annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans&source=http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Share on LinkedIn">
       <img alt="Share on LinkedIn" src="images/social_flat_rounded_rects_svg/LinkedIn.svg">
     </a>
   </li>
