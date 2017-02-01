@@ -83,4 +83,4 @@ The database is distributed under two revisions:
 
 - @metelkin: database schema, scripting, "design"
 
-- Other [ISBM](http://insysbio.ru/en "ISB home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
+- Other [ISBM](http://insysbio.ru/en "ISBM home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
