@@ -1,0 +1,8 @@
+# allow all
+User-agent: *
+Allow: /
+Disallow: /*.php
+Disallow: /*.js
+Disallow: /*.htaccess
+Disallow: /doc/*agreement.pdf$
+Host: irt.insysbio.ru
