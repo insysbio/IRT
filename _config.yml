@@ -5,7 +5,6 @@ gems:
   - jekyll-redirect-from
 title: "Immune Response Template"
 description: "Annotation and numerical description of immune response in humans"
-image: /images/general view.png
 logo: /images/logo_isb.png
 show_downloads: false
 demo_path: online
@@ -24,4 +23,3 @@ social:
     - https://github.com/insysbio
     - https://twitter.com/insysbio
     - https://insysbio.ru/en
-    
