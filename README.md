@@ -55,7 +55,7 @@ The database is distributed under two revisions:
 * running of IRT in one click in different OS (Windows, Mac OS, Linux).
 
 **IRT navigator**
-![IRT navigator](images/general view.png)
+![IRT navigator](images/general_view.png)
 
 ## Let people know about us
 
