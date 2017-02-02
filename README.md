@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 ## Immune Response Template
