@@ -23,3 +23,8 @@ social:
     - https://github.com/insysbio
     - https://twitter.com/insysbio
     - https://insysbio.ru/en
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/general_view.png
