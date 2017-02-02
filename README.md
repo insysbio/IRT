@@ -1,5 +1,5 @@
 ---
-image: /images/general_view.png
+image: http://irt.insysbio.ru/images/general_view.png
 
 ---
 
