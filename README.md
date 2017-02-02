@@ -1,3 +1,7 @@
+---
+image: /images/general_view.png
+
+---
 
 ## Immune Response Template
 
