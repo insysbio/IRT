@@ -1,6 +1,4 @@
 ---
-image: http://irt.insysbio.ru/images/general_view.png
-
 ---
 
 ## Immune Response Template
