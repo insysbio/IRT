@@ -110,3 +110,5 @@ http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
 - @metelkin: database schema, scripting, "design"
 
 - Other [ISBM](http://insysbio.ru/en "ISBM home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
+
+<div class="fb-share-button" data-href="https://irt.insysbio.ru" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Firt.insysbio.ru%2F&amp;src=sdkpreparse">Share</a></div>
