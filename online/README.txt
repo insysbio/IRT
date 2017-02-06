@@ -19,7 +19,7 @@ How to get the full version
 II. REQUIREMENTS
 ----------------
 * Google Chrome (starting from version 42.0.2311.90). The other browsers are not officially supported for the date.
-* No internet connection is required to use IRT. The current package is totally offline.
+* No internet connection is required as default to use IRT. The current package can be started offline.
 
 III. INSTALLATION AND CONFIGURATION
 -----------------------------------
@@ -37,6 +37,9 @@ Alternative start (Web page mode):
 3. Start chrome.exe from command promt with specific keys: "--allow-file-access-from-files --disable-popup-blocking".
 4. Run index.xhtml (if Google Chrome is default internet browser) or drop index.xhtml to Google Chrome.
 5. Use IRT navigator in browser.
+
+Online demo-start (internet connection required):
+1. Please visit http://irt.insysbio.ru and try online version in Chrome browser
 
 IV. TROUBLESHOOTING
 -------------------
@@ -69,4 +72,3 @@ Each part of the package is distributed under the particular license above. No s
 
 © Institute for Systems Biology, Moscow, 2016-2017
 http://insysbio.ru
-

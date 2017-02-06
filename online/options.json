@@ -4,7 +4,6 @@ configuration file for IRT navigator
 
 options=
 {
-  //"DBVersion": "./irt_db_1.0/", // path to whole database folder
-  "DBVersion": "./irt_db_1.0_demo/", // path to demo database folder
+  "DBVersion": "./170206_irt_db_demo/", // path to demo database folder
   "debuggingMode": "false"
 }
