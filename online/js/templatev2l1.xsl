@@ -117,7 +117,10 @@
   
   <xsl:template match="l2v4:species[@mentioned='true' or @included='true']">
     <xsl:element name="species" namespace="http://www.sbml.org/sbml/level2/version1">
-      <xsl:attribute name="spatialSizeUnits">l</xsl:attribute> <!-- add spatialSizeUnits attribute -->
+	  <xsl:if test="$unitDefinitions">
+        <xsl:attribute name="spatialSizeUnits">l</xsl:attribute> <!-- add spatialSizeUnits attribute -->
+      </xsl:if>
+      
       <xsl:apply-templates select="@*|node()"/>
     </xsl:element>
   </xsl:template>
