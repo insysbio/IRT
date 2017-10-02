@@ -29,14 +29,14 @@ The database is distributed under two revisions:
 <tr>
 <td style="border-width:0px;width:50%;"><a href="online"><img alt="try demo online" src="images/1/demo_button.svg"></a></td>
 <td style="border-width:0px;width:50%;">
-  <a href="mailto:IRT%20team<irt@insysbio.ru>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template full version">
+  <a href="mailto:IRT%20team<irt@insysbio.com>?subject=Request%20for%20Immune%20Response%20Template&body=I'd%20like%20to%20request%20for%20Immune%20Response%20Template full version">
     <img alt="request for full version" src="images/1/full_button.svg">
   </a>
 </td>
 </tr>
 <tr>
 <td style="border-width:0px;width:50%;">The demo version and code is available online for free under <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">CC BY-ND 4.0</a> lisence.</td>
-<td style="border-width:0px;width:50%;">The full version can be obtained under commercial license after request to <b>irt@insysbio.ru</b></td>
+<td style="border-width:0px;width:50%;">The full version can be obtained under commercial license after request to <b>irt@insysbio.com</b></td>
 </tr>
 </table>
 
@@ -109,6 +109,6 @@ http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
 
 - @metelkin: database schema, scripting, "design"
 
-- Other [ISBM](http://insysbio.ru/en "ISBM home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
+- Other [InSysBio](http://insysbio.com/en "InSysBio home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
 
 <div class="fb-share-button" data-href="http://irt.insysbio.ru" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Firt.insysbio.ru%2F&amp;src=sdkpreparse">Share</a></div>
