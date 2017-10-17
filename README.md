@@ -61,29 +61,29 @@ The database is distributed under two revisions:
 
 <ul class="share-buttons">
   <li>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=irt.insysbio.ru" title="Share on Facebook" target="_blank">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=irt.insysbio.com" title="Share on Facebook" target="_blank">
       <img alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg">
     </a>
   </li>
   <li>
-    <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Immune%20Response%20Template%20demo%20online&url=http%3A%2F%2Firt.insysbio.ru&via=insysbio" target="_blank" title="Tweet">
+    <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Immune%20Response%20Template%20demo%20online&url=http%3A%2F%2Firt.insysbio.com&via=insysbio" target="_blank" title="Tweet">
       <img alt="Tweet" src="images/social_flat_rounded_rects_svg/Twitter.svg">
     </a>
   </li>
   <li>
-    <a href="https://plus.google.com/share?url=http://irt.insysbio.ru" target="_blank" title="Share on Google+">
+    <a href="https://plus.google.com/share?url=http://irt.insysbio.com" target="_blank" title="Share on Google+">
       <img alt="Share on Google+" src="images/social_flat_rounded_rects_svg/Google+.svg">
     </a>
   </li>
   <li>
-    <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://irt.insysbio.ru&title=Immune%20Response%20Template%20online&summary=annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans&source=http://irt.insysbio.ru" target="_blank" title="Share on LinkedIn">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://irt.insysbio.com&title=Immune%20Response%20Template%20online&summary=annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans&source=http://irt.insysbio.com" target="_blank" title="Share on LinkedIn">
       <img alt="Share on LinkedIn" src="images/social_flat_rounded_rects_svg/LinkedIn.svg">
     </a>
   </li>
   <li>
     <a href="mailto:?subject=Re%3A%20Immune%20Response%20Template&body=For%20your%20attention
 Immune Response Template: annotation%20and%20numerical%20description%20of%20immune%20response%20in%20humans
-http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
+http%3A%2F%2Firt.insysbio.com" target="_blank" title="Send email">
       <img alt="Send email" src="images/social_flat_rounded_rects_svg/Email.svg">
     </a>
   </li>
@@ -99,8 +99,6 @@ http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
 
 * [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
-* tutotials: _coming soon_
-
 ## Team
 
 - [Oleg Demin Jr.](https://www.linkedin.com/in/demin-jr "LinkedIn profile"): idea, modeling, coordination
@@ -111,4 +109,4 @@ http%3A%2F%2Firt.insysbio.ru" target="_blank" title="Send email">
 
 - Other [InSysBio](http://insysbio.com/en "InSysBio home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
 
-<div class="fb-share-button" data-href="http://irt.insysbio.ru" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Firt.insysbio.ru%2F&amp;src=sdkpreparse">Share</a></div>
+<div class="fb-share-button" data-href="http://irt.insysbio.com" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Firt.insysbio.com%2F&amp;src=sdkpreparse">Share</a></div>
