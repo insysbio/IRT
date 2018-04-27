@@ -1,9 +1,0 @@
-/*
-configuration file for IRT navigator
-*/
-
-options=
-{
-  "DBVersion": "./170206_irt_db_demo/", // path to demo database folder
-  "debuggingMode": "false"
-}

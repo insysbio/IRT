@@ -1,78 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-This file is a part of IRT navigator
-Author: Evgeny Metelkin
-
-This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International 
-
-License http://creativecommons.org/licenses/by-nd/4.0/
-
-© Institute for Systems Biology, Moscow, 2016-2017
-http://insysbio.ru
--->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+<html style="height: 100%;" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>IRT navigator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <link rel="stylesheet" href="./w3css/w3.css"/>
-    <link rel="stylesheet" type="text/css" href="./style/style.css"/>
-    <link rel="stylesheet" type="text/css" href="./style/filter.css"/>
-    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css"/>
-    
-    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter38306160 = new Ya.Metrika({ id:38306160, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <!-- /Yandex.Metrika counter -->
-    
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
   </head>
+
   <body class="w3-row" style="height:100%;">
-  
-   <div id="rightDiv" class="w3-col w3-right w3-container w3-light-blue w3-card-2 w3-animate-right" style="overflow-y:auto; height:100%; width: 300px; display:none;"/>
+
+   <div class="w3-col w3-right w3-container w3-light-blue w3-card-2 w3-animate-right" style="overflow-y:auto; height:100%; width: 300px; display:none;" id="rightDiv"/>
    <div class="w3-rest" style="height:100%;">
-   
-    <ul id="topDiv" class="w3-navbar w3-blue w3-card-2">
-        <li><a href="#" class="sectionLink" onclick="openSection('pages')">Pages <i class="fa fa-caret-down"/></a></li>
-        <li><a href="#" class="sectionLink" onclick="openSection('schemes')">Schemes <i class="fa fa-caret-down"/></a></li>
+
+    <ul class="w3-navbar w3-blue w3-card-2" id="topDiv">
+        <li><a href="#" id="openPages" class="sectionLink">Pages <i class="fa fa-caret-down"/></a></li>
+        <li><a href="#" id="openSchemes" class="sectionLink">Schemes <i class="fa fa-caret-down"/></a></li>
+
+        <li><a href="#" id="openModels" class="sectionLink"><i class="fa fa-table w3-large"/></a></li>
+        <li><a href="#" id="openSave" class="sectionLink"><i class="fa fa-cogs w3-large"/></a></li>
+        <li><input type="search" class="w3-round" id="filter" placeholder="Filter: type phrase and press Enter..." results="5" value=""/></li>
+        <li class="w3-right">
+          <a href="#" id="profile"><i class="fa fa-user w3-large"/></a>
+        </li>
+        <li class="w3-right"><a href="#" id="hiderRightDiv"><i class="fa fa-star w3-large"/></a></li>
         
-        <li><a href="#" class="sectionLink" onclick="openSection('models')"><i class="fa fa-table w3-large"/></a></li>
-        <li><a href="#" class="sectionLink" onclick="{openSection('save');updateStatistics();}"><i class="fa fa-cogs w3-large"/></a></li>
-        <li><input id="filter" class="w3-round" type="search" results="5" value="" placeholder="Filter: type phrase and press Enter..." style="width:300px; padding:4px 10px 4px 40px; border: none; margin:2px; background-image: url(style/searchicon.png);     background-position: 8px 6px; background-repeat: no-repeat; -webkit-appearance: searchfield;" onchange="filterSbml();"/></li>
-        <li class="w3-right"><a href="#" onclick="hideRightDiv()"><i class="fa fa-star w3-large"/></a></li>
-        <!-- include menu -->
         <li class="w3-right w3-dropdown-hover">
           <a href="#"><i class="fa fa-cart-plus w3-large"/></a>
           <div class="w3-dropdown-content w3-white w3-card-4" style="width:347px; right:49px;">
-            <a href="#" onclick="selectAllSheme()"><i class="fa fa-plus-square-o w3-large"/> Select all elements on the scheme</a>
-            <a href="#" onclick="deselectAllSheme()"><i class="fa fa-minus-square-o w3-large"/> Deselect all elements on the scheme</a>
-            <a href="#" onclick="selectAllTable()"><i class="fa fa-plus-square-o w3-large"/> Select all elements</a>
-            <a href="#" onclick="deselectAllTable()"><i class="fa fa-minus-square-o w3-large"/> Clear selection</a>
+            <a href="#" id="selectAllSheme"><i class="fa fa-plus-square-o w3-large"/> Select all elements on the scheme</a>
+            <a href="#" id="deselectAllSheme"><i class="fa fa-minus-square-o w3-large"/> Deselect all elements on the scheme</a>
+            <a href="#" id="selectAllTable"><i class="fa fa-plus-square-o w3-large"/> Select all elements</a>
+            <a href="#" id="deselectAllTable"><i class="fa fa-minus-square-o w3-large"/> Clear selection</a>
           </div>
         </li>
       </ul>
-    <div id="mainDiv" class="w3-row w3-border-bottom w3-border-blue">
+    <div class="w3-row w3-border-bottom w3-border-blue" id="mainDiv">
     <div class="w3-col w3-border-right w3-border-blue sectionNav" style="width:250px; height:100%; display:none; overflow:auto;">
-      <ul id="pagesUl" class="w3-ul w3-hoverable my-no-decoration"/>
-    </div>
-    
-    <div class="w3-col w3-border-right w3-border-blue sectionNav" style="width:250px; height:100%; display:none; overflow:auto;">
-      <ul id="schemesUl" class="w3-ul w3-hoverable my-no-decoration"/>
+      <ul class="w3-ul w3-hoverable my-no-decoration" id="pagesUl"/>
     </div>
 
-    <div id="pagesDiv" class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;">
+    <div class="w3-col w3-border-right w3-border-blue sectionNav" style="width:250px; height:100%; display:none; overflow:auto;">
+      <ul class="w3-ul w3-hoverable my-no-decoration" id="schemesUl"/>
+    </div>
+
+    <div class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;" id="pagesDiv">
       <h1>Pages should be attached here</h1>
     </div>
-    <div id="schemesDiv" class="w3-rest irt-section" style="height:100%; display:none; padding:10px;">
-      <h1>Schemes should be attached here</h1>
+    <div class="w3-rest irt-section" style="height:100%; display:none; padding:10px;" id="schemesDiv">
+        <div style="height: 100%; padding:10px;" id="panzoom">
+          <h1>Schemes should be attached here</h1>
+        </div>
+        <div class="w3-display-topleft w3-blue w3-center" style="position: absolute; margin: 2px;" id="panzoomButtons">
+          <button class="zoom-in w3-small w3-button w3-blue" id="zoom-in"><i class="fa fa-search-plus"></i></button><br/>
+          <input type="range" class="zoom-range w3-small" id="zoom-range" orient="vertical"/><br/>
+          <button class="zoom-out w3-button w3-blue w3-small" id="zoom-out"><i class="fa fa-search-minus"></i></button><br/>
+          <button class="reset w3-button w3-blue w3-small" id="reset" style="width: 100%;"><i class="fa fa-arrows-alt"></i></button><br/>
+        </div>
     </div>
+
+    <div class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;" id="searchDiv"/>
+
     
-    <div id="searchDiv" class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;"/>
-    
-    <!-- START of tools page -->
-    <div id="saveDiv" class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;">
+    <div class="w3-rest w3-container irt-section" style="overflow-y:auto;height:100%;display:none;" id="saveDiv">
       <h1>Tools for selected elements</h1>
-      
+
       <div class="w3-container w3-row">
       <div class="w3-quarter" style="min-width:320px;">
-      
+
       <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>Statistics</h3></div>
       <div class="w3-container">
@@ -81,21 +74,21 @@ http://insysbio.ru
           Number of species: <span id="numOfIncludedSpecies"/><br/>
           Number of reactions: <span id="numOfIncludedReactions"/></p>
           <hr/>
-          <p><button class="w3-btn w3-blue-grey" onclick="updateStatistics()">Update</button></p>
+          <p><button class="w3-btn w3-blue-grey" id="updateStatistics">Update</button></p>
       </div>
       </div>
-      
+
      <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>ODE summary</h3></div>
       <div class="w3-container">
         <p>Create the system of differential equations based on selected elements and open it in a new window</p>
-        <p><button class="w3-btn w3-blue-grey" onclick="openODE()">Create...</button></p>
+        <p><button class="w3-btn w3-blue-grey" id="openODE">Create...</button></p>
       </div>
       </div>
       </div>
-      
+
       <div class="w3-quarter" style="min-width:320px;">
-        
+
       <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>Save template</h3></div>
       <div class="w3-container">
@@ -109,109 +102,84 @@ http://insysbio.ru
          <option value="L3V1">SBML Level 3 Version 1</option>
        </select>
       </p>
-      
+
       <p><b>Include specific info:</b><br/>
-      <input type="checkbox" class="w3-check" checked="checked" id="includeUnitDefinitions"/>
+      <input type="checkbox" class="w3-check" id="includeUnitDefinitions" checked="checked"/>
       <label class="w3-validate">unitDefinitions</label><br/>
-      <input type="checkbox" class="w3-check" checked="checked" id="includeSpeciesTypes"/>
+      <input type="checkbox" class="w3-check" id="includeSpeciesTypes" checked="checked"/>
       <label class="w3-validate">speciesTypes</label><br/>
-      <input type="checkbox" class="w3-check" checked="checked" id="includeAnnotation"/>
+      <input type="checkbox" class="w3-check" id="includeAnnotation" checked="checked"/>
       <label class="w3-validate">annotation</label><br/>
-      <input type="checkbox" class="w3-check" checked="checked" id="includeNotes"/>
+      <input type="checkbox" class="w3-check" id="includeNotes" checked="checked"/>
       <label class="w3-validate">notes</label>
       </p>
-      <p><button class="w3-btn w3-blue-grey" onclick="saveSBML()">Save</button></p>
+      <p><button class="w3-btn w3-blue-grey" id="saveSBML">Save</button></p>
       </div>
       </div>
-      
+
       <div class="w3-card-2 w3-margin">
       <div class="w3-container w3-blue"><h3>Load selected elements</h3></div>
       <div class="w3-container">
-        <form onsubmit="loadSBML(event)">
+        <form id="loadSBML">
           <p>Loading selection from template.<br/> Attention! Current selection will be erased.</p>
-          <p><input type="file" id="uploadTemplate" required="required" accept=".xml,.sbml"/></p>
-          <p><input type="submit" class="w3-btn w3-blue-grey" >Load...</input></p>
+          <p><input type="file" id="uploadTemplate" accept=".xml,.sbml" required="required"/></p>
+          <p><input type="submit" class="w3-btn w3-blue-grey"/>Load...</p>
         </form>
       </div>
       </div>
-      
+
       </div>
     </div>
     </div>
-    <!-- END of tools page -->
     
+
     </div>
-    <div id="footerDiv" class="w3-container w3-right-align w3-padding-8"/>
+    <div class="w3-container w3-right-align w3-padding-8" id="footerDiv"/>
    </div>
-   
+
    <div id="tip"> Hello!</div>
-   
-    
-   <div id="modalWindow" class="w3-modal">
+
+
+   <div class="w3-modal" id="modalWindow">
      <div class="w3-modal-content w3-container w3-center">
        <h1>Searching...</h1>
        <p>Search phrase in element notes. The found elements will be heighlited.</p>
        <p class="loader"/>
      </div>
    </div>
-   
-    <!-- BEGIN welcome window -->
-    <div id="welcomeModal" class="w3-modal" style="display:block;">
-      <div class="w3-modal-content w3-container  w3-card-8">
-        <h1 class="w3-center">IRT navigator environment checking...</h1>
-        <p>To start <strong>Immune Response Template navigator</strong> check the following settings:
-          <ul id="checking">
-            <li class="check-false">JavaScript should be active on page.
-              <ul>
-              <li>Check setting of your browser to turn on JavaScript on the page.</li>
-              </ul>
-            </li>
-            <li class="check-insensible">Proper browser.
-              <ul>
-              <li>The current version of IRT navigator requires Google Chrome installed. Install <a href="https://www.google.com/chrome/browser/desktop/index.html">the latest version</a>.</li>
-              </ul>
-            </li>
-            <li class="check-insensible">High screen resolution.
-              <ul>
-              <li>You need the resolution not lower than 1024x768.</li>
-              <li>Portable divices are not supported.</li>
-              </ul>
-            </li>
-            <li class="check-insensible">The pop-up windows should be allowed for this page.
-              <ul>
-              <li>Please, select "Always allow pop-ups from..." in the top-right corner <img src="style/popup.png" height="30px"/> and reset the page (F5).</li>
-              <li>Alternatively you can use "--disable-popup-blocking" flag when starting Chrome.</li>
-              </ul>
-            </li>
-            <li class="check-insensible">Availability of IRT database.
-              <ul>
-              <li>When starting IRT navigator locally the option "--allow-file-access-from-files" should be used.</li>
-              <li>Check available IRT database path and "options.json"</li>
-              </ul>
-            </li>
-          </ul>
-        </p>
-        <p>Go to project page <a href="http://irt.insysbio.ru">http://irt.insysbio.ru</a></p>
-     </div>
-   </div>
-   <!-- END welcome window -->
-   
-   <!-- BEGIN JS loading -->
-    <script type="text/javascript" src="./options.json"> </script>
-    <script type="text/javascript" src="./js/irt-scripts-min.js"> </script>
+
     
-    <script type="text/x-mathjax-config">
-     MathJax.Hub.Config({
-      jax: ["input/TeX","input/MathML","output/HTML-CSS"],
-      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js", "MathML/mml3.js", "MathML/content-mathml.js"],
-      TeX: {
-        extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
-      },
-      "HTML-CSS": { linebreaks: { automatic: true } },
-      menuSettings: { zoom: "None", zscale: "200%" }
-     });
-    </script>
-    <script type="text/javascript" async="true" src="./MathJax/MathJax.js"></script>
-   <!-- END JS loading -->
-  </body>
+
+   
+   <div class="w3-modal" style="width:100%" id="welcomeModal">
+      <div class="w3-modal-content" style="min-height:500px;">
+        <div class="w3-container">
+          <span id="closeWelcomeModel" class="w3-button w3-display-topright">&times;</span>
+          <div class="w3-row">
+            <div class="w3-half w3-container">
+              <h2 class="w3-center">Info</h2>
+              <h4>Logs</h4>
+              <p class="w3-text-red" id="errorMsg">Successful authentication.</p>
+              <div id="endIrtSession">
+                <button class="w3-btn w3-blue" id="endIrtSession">End IRT session</button>
+              </div>
+            </div>
+            <div class="w3-half">
+              <h2 class="w3-center">Authentication</h2>
+             <iframe class="w3-container" height="400px" id="authFrame" style="border:0px;" width="100%"/>
+            </div>
+            <p class="w3-right">Visit IRT project page <a href="http://irt.insysbio.ru">http://irt.insysbio.com</a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   
+
+   
+   <script src="./mathjax.config.js" type="text/javascript" defer="true"></script>
+   <script src="./MathJax/MathJax.js" type="text/javascript" defer="true" async="true"></script>
+   
+  <script src="lib.js" type="text/javascript"></script><script src="bundle.js" type="text/javascript"></script><script src="style.js" type="text/javascript"></script><script src="zoom.js" type="text/javascript"></script></body>
 </html>
