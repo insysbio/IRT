@@ -6,4 +6,3 @@ Disallow: /assets/
 Disallow: /_config.yml
 Disallow: /CNAME
 Disallow: /doc/*agreement.pdf$
-Host: irt.insysbio.ru

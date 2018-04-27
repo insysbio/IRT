@@ -99,13 +99,15 @@ http%3A%2F%2Firt.insysbio.com" target="_blank" title="Send email">
 
 * [IRT summary presentation](doc/160901_IRT_presentation_ISB.pdf)
 
+* [Installation and usage](online/README.txt)
+
 ## Team
 
 - [Oleg Demin Jr.](https://www.linkedin.com/in/demin-jr "LinkedIn profile"): idea, modeling, coordination
 
 - **Antonina Nikitich:** analytics, modeling, literature search
 
-- @metelkin: database schema, scripting, "design"
+- @metelkin: programming, design
 
 - Other [InSysBio](http://insysbio.com "InSysBio home page") folks: **Oleg Demin**, **Alexander Stepanov**, **Maria Maximova**
 
